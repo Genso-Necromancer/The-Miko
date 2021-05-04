@@ -1,0 +1,20 @@
+
+miko.sprite.camp.png
+size: 710,632
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+reimuposes
+  rotate: false
+  xy: 2, 2
+  size: 642, 628
+  orig: 642, 628
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 646, 273
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

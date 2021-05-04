@@ -1,0 +1,114 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "miko_bomb_use",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "mk_rule_mode"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "miko_bomb_elixer",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "mk_rule_mode"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "miko_bomb_count_tincture",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_bomb_count_limit",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "mk_rule_mode"
+         }
+      },
+      {
+         "id" : "miko_bomb_tincture",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "mk_rule_mode"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "miko_bomb_count_elixir",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_bomb_count_limit",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_bomb_count_skill",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_bomb_count_used",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_bomb_count_elixir",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_bomb_count_limit",
+         "amount" : -0.03,
+          "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "miko_no_bombs",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "miko_bomb"
+         },
+		 "has_description": true
+      }
+   
+   ]
+}  

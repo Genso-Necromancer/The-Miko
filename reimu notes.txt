@@ -1,0 +1,18 @@
+PICHUUUUUUUUUN
+
+Fake FX: DONE
+
+Buff for Fake FX: DONE
+
+Effect for Buff for fake FX: DONE
+
+Death reaction for effect for buff for fake FX: DONE
+
+Cram Pichuun into fmod under general/status/buff_fx_[name]_onset:
+
+
+
+
+
+
+

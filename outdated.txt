@@ -1,0 +1,80 @@
+Favored Stats: DMG, Stun Chance, Spd, Dodge, Stress heal
+
+Miko Trinket Concepts
+
+Hakurei Omamori, common: +5% Prot, -5% crit received
+
+Cup, uncommon: +15% stun chance, -10% Stress, -2 Spd
+
+Depreciated Spellcard, Rare: +25% Stun w/ Fantasy Seal +25% stress heal w/ cautionary border; on kill: refresh per-battle skill uses
+
+Rod of Remorse, Very Rare: +33% Stress Healing, -25% Stress received, -35% Damage,  +20% Stun Chance
+
+Shion's Curse, Very Rare: -100% damage from hunger, +200% stress healed after heart attack, (Not-Afflicted)-100% Stress Heal Received, (afflicted) +25% Move Resist, -15% Stun Chance; Friendly Skills: +10 Stress (stacks with multiple targets, like with cautionary border)
+
+Yin, CC: (Afflicted) +15% DMG, -50% stress damage inflicted (Not-Afflicted) +15% Stress received, -20% Stress Healing Received
+
+Yang, CC: (Not-Afflicted) +15% Stun Chance, +20% Stress Healing. (Afflicted) +20% Stress healing Received, +15% Stress Resistance
+
+CC Set: 
++10Acc
+
+
+Gap trinket: +15% HP, Shift from front ranks to back ranks when hit, +10 DODGE when hit, mark self on melee attack
+
+-Not yet implemented/Still developing-
+
+Merciless Gohei, Sakura: On-Kill: DMG debuff to enemy party
+
+
+
+
+
+Sick Pro Gamer Cheat code for ALL TRINKETS(click here): -addtrinkets miko_omamori miko_cup miko_spellcard miko_donation miko_shinsatsu cc_set_miko_yin cc_set_miko_yang si_miko_merciless com_miko_gap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suika, Pet: Actor Dot that pins tiny Suikas to the enemy. lmao I don't give a fuck, pet trinkets are fun hour.

@@ -1,0 +1,22 @@
+{
+   "loot_tables" :
+   [
+
+   
+	
+   {
+         "id" : "camp_bomb",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "miko_bomb_camp", "amount" : 1 }}
+           
+         ]
+      }
+	  
+     
+	  
+   ]
+}

@@ -1,0 +1,48 @@
+
+miko.sprite.circle_target.png
+size: 424,553
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle
+  rotate: true
+  xy: 251, 2
+  size: 206, 137
+  orig: 206, 137
+  offset: 0, 0
+  index: -1
+circle flame
+  rotate: true
+  xy: 2, 345
+  size: 206, 309
+  orig: 206, 309
+  offset: 0, 0
+  index: -1
+left spike
+  rotate: false
+  xy: 251, 210
+  size: 140, 133
+  orig: 140, 133
+  offset: 0, 0
+  index: -1
+mark border
+  rotate: false
+  xy: 2, 48
+  size: 247, 295
+  orig: 247, 295
+  offset: 0, 0
+  index: -1
+red dot
+  rotate: false
+  xy: 313, 345
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+right spike
+  rotate: false
+  xy: 313, 396
+  size: 109, 155
+  orig: 109, 155
+  offset: 0, 0
+  index: -1

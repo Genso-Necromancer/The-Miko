@@ -1,0 +1,27 @@
+
+miko.sprite.afflicted.png
+size: 2945,1131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backray
+  rotate: false
+  xy: 2, 2
+  size: 1389, 1127
+  orig: 1389, 1127
+  offset: 0, 0
+  index: -1
+reimuposes
+  rotate: true
+  xy: 1393, 82
+  size: 1047, 1012
+  orig: 1047, 1012
+  offset: 0, 0
+  index: -1
+stress wreath
+  rotate: true
+  xy: 2407, 415
+  size: 714, 536
+  orig: 714, 536
+  offset: 0, 0
+  index: -1

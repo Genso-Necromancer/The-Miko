@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <language id="english">
+		<entry id="hero_class_name_miko"><![CDATA[Miko]]></entry>
+		<entry id="action_verbose_body_blacksmith_miko"><![CDATA[Baffling the smith, her ofuda and sacred gohei are nothing more than wood and paper. Her garb, sacred as they may be, are nothing more than light cloth hanging from her slender and nimble frame. Yet, whatever blessings this Miko claims they hold require no sense of faith to witness.]]></entry>
+
+		<entry id="action_verbose_body_guild_miko"><![CDATA[As sole keeper of her shrine, this destitute maiden brings the full fury of her forgotten God into battle. Striking down yokai and heathen alike with her blessed gohei or displaying her mastery over barriers using her ofuda. Though prefering to finish things quickly, she's still capable of granting minor blessing to others.]]></entry>
+
+		<entry id="action_verbose_body_camping_trainer_miko"><![CDATA[Still possessing the capacity for a few religious rites and an avid understanding of barriers, she can prove useful at camp. Should you catch her in a good mood. If nothing else, she can found having a drink by herself or honing her evasive style.]]></entry>
+
+<!-- -->
+			<!-- Skills -->
+
+		<entry id="combat_skill_name_miko_extermination"><![CDATA[Extermination]]></entry>
+		<entry id="combat_skill_name_miko_persuasion_needle"><![CDATA[Persuasion Needle]]></entry>
+    	<entry id="combat_skill_name_miko_homing_amulet"><![CDATA[Homing Amulet]]></entry>
+    	<entry id="combat_skill_name_miko_evil_sealing_circle"><![CDATA[Evil-sealing Circle]]></entry>
+    	<entry id="combat_skill_name_miko_disaster_dispelling_prayer"><![CDATA[Disaster-dispelling Prayer]]></entry>
+    	<entry id="combat_skill_name_miko_permanent_border"><![CDATA[Danmaku Barrier]]></entry>
+		<entry id="combat_skill_name_miko_fantasy_seal"><![CDATA[Fantasy Seal]]></entry>
+    	<entry id="combat_skill_name_miko_move"><![CDATA[Move]]></entry>
+   		<entry id="upgrade_tree_name_miko.extermination"><![CDATA[Extermination]]></entry>
+		<entry id="upgrade_tree_name_miko.persuasion_needle"><![CDATA[Persuasion Needle]]></entry>
+    	<entry id="upgrade_tree_name_miko.homing_amulet"><![CDATA[Homing Amulet]]></entry>
+    	<entry id="upgrade_tree_name_miko.evil_sealing_circle"><![CDATA[Evil-sealing Circle]]></entry>
+    	<entry id="upgrade_tree_name_miko.disaster_dispelling_prayer"><![CDATA[Disaster-dispelling Prayer]]></entry>
+    	<entry id="upgrade_tree_name_miko.permanent_border"><![CDATA[Danmaku Barrier]]></entry>
+    	<entry id="upgrade_tree_name_miko.fantasy_seal"><![CDATA[Fantasy Seal]]></entry>
+		
+		<entry id="camping_skill_name_danmaku_mk"><![CDATA[DANMAKU PRACTICE]]></entry>
+		<entry id="camping_skill_name_possession"><![CDATA[KUCHIYOSE TRANCE]]></entry>
+		<entry id="camping_skill_name_bomb_brew"><![CDATA[BOMB BREW]]></entry>
+		<entry id="camping_skill_name_ofuda_warding"><![CDATA[HARAE CEREMONY]]></entry>
+		
+			
+		
+			
+		<!-- equipment -->
+
+		<entry id="miko_weapon_0"><![CDATA[Faithless Gohei]]></entry>
+		<entry id="miko_weapon_1"><![CDATA[Tattered Gohei]]></entry>
+    	<entry id="miko_weapon_2"><![CDATA[Elongated Gohei]]></entry>
+    	<entry id="miko_weapon_3"><![CDATA[Gilded Gohei]]></entry>
+    	<entry id="miko_weapon_4"><![CDATA["Maiden's Capriccio"]]></entry>
+    	<entry id="upgrade_tree_name_miko.weapon"><![CDATA[Gohei]]></entry>
+    	<entry id="miko_armour_0"><![CDATA[Frayed Kosode]]></entry>
+    	<entry id="miko_armour_1"><![CDATA[Hemmed Kosode]]></entry> 
+    	<entry id="miko_armour_2"><![CDATA[Tailored Kosode]]></entry>
+    	<entry id="miko_armour_3"><![CDATA[Consecrated Kosode]]></entry>
+    	<entry id="miko_armour_4"><![CDATA["Eastward Love"]]></entry>
+    	<entry id="upgrade_tree_name_miko.armour"><![CDATA[Kosode]]></entry>
+		
+		<!-- tool tips -->
+		
+		<entry id="str_skill_mode_info_mk_rule_mode"><![CDATA[]]></entry>
+		<entry id="str_spellcard"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_youkai_killer_tt1"><![CDATA[+%d%% vs Youkai]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_youkai_killer_tt2"><![CDATA[+%d%% vs Youkai]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_youkai_killer_tt3"><![CDATA[+%d%% vs Youkai]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_youkai_killer_tt4"><![CDATA[+%d%% vs Youkai]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_youkai_killer_tt5"><![CDATA[+%d%% vs Youkai]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_rhythm_tt"><![CDATA[On-Hit: +1 stack of {colour_start|buff}Rhythm{colour_end}
+		On-Miss: Lose all stacks]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_is_bomb_tt"><![CDATA[{colour_start|attacktype}Spell Card{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_bomb_count_limit"><![CDATA[{colour_start|attacktype}Spell Card{colour_end} Limit!: {colour_start|notable}%d{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_bomb_count_used"><![CDATA[{colour_start|attacktype}Spell Cards{colour_end} Used!: {colour_start|notable}%d{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_EX_SH_tt"><![CDATA[On {colour_start|attacktype}Melee{colour_end} Hit: {colour_start|stress}Stress{colour_end} %d if {colour_start|afflicted}Afflicted{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_fsyk_tt"><![CDATA[Vs Yokai: 
+		{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_HA_Riposte_tt"><![CDATA[Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_ha_move_tt"><![CDATA[In Rank 1&2: {colour_start|move}Back{colour_end} 2
+		In Rank 3&4: {colour_start|move}Forward{colour_end} 2]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_remorse_heal_tt"><![CDATA[{colour_start|notable}Disaster-dispelling Prayer{colour_end}: {colour_start|healhp}Heal{colour_end} 2 for each ally]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_remorse_aff_tt"><![CDATA[Cannot {colour_start|healhp}Heal{colour_end} if {colour_start|afflicted}Afflicted{colour_end}!]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_merciless_tt"><![CDATA[{colour_start|notable}Extermination{colour_end}: +1 additional stack of {colour_start|buff}Rhythm{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_gap_tt"><![CDATA[Always {colour_start|afflicted}Marked{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_ha_dmg_tt"><![CDATA[%d%% DMG per additional Target]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_esc_tt"><![CDATA[DMG reduced by Target's missing HP%%]]></entry>
+	
+		
+		
+
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_yin_effect_tt"><![CDATA[+5 ACC & +2%% CRIT if {colour_start|stress}Stress{colour_end} above %d]]></entry>
+		
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_heart_attack"><![CDATA[+200%% {colour_start|stress}Stress{colour_end} healed from {colour_start|afflicted}Heart Attack{colour_end}]]></entry>
+		
+		<entry id="camping_skill_effect_loot_camp_bomb"><![CDATA[Brew 1 Miko Bomb Tincture]]></entry>
+		<entry id="effect_refresh_skill_uses"><![CDATA[Refresh per-battle uses]]></entry>
+		
+		
+		<entry id="buff_rule_data_tooltip_fantasy_seal"><![CDATA[{colour_start|notable}Fantasy Seal{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_permanent_border"><![CDATA[{colour_start|notable}Danmaku Barrier{colour_end}]]></entry>
+		<entry id="buff_rule_data_tooltip_extermination"><![CDATA[Extermination]]></entry>
+		
+		<!-- Provisions -->
+		<entry id="str_inventory_title_supplymiko_bomb"><![CDATA[Miko Bomb Elixer]]></entry>
+		<entry id="str_inventory_description_supplymiko_bomb"><![CDATA[Drink to {colour_start|notable}set{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit to {colour_start|notable}3{colour_end}! {colour_start|skill_unselectable}Disclaimer: Has no effect on non-spellcard users.{colour_end}]]></entry>
+		<entry id="str_inventory_title_supplymiko_bomb_camp"><![CDATA[Miko Bomb Tincture]]></entry>
+		<entry id="str_inventory_description_supplymiko_bomb_camp"><![CDATA[{colour_start|notable}Increases{colour_end} your {colour_start|attacktype}Spell Card{colour_end} limit by {colour_start|notable}1{colour_end}! {colour_start|skill_unselectable}Disclaimer: {colour_end}]]></entry>
+		
+		<!-- trinkets -->
+		<entry id="str_inventory_title_trinketmiko_omamori"><![CDATA[Hakurei Omamori]]></entry>
+		<entry id="str_inventory_title_trinketmiko_cup"><![CDATA[Suspicious Yunomi]]></entry>
+		<entry id="str_inventory_title_trinketmiko_spellcard"><![CDATA[Barrier Breaker's Charm]]></entry>
+		<entry id="str_inventory_title_trinketmiko_donation"><![CDATA[Shion's Curse]]></entry>
+		<entry id="str_inventory_title_trinketmiko_shinsatsu"><![CDATA[Rod of Remorse]]></entry>
+		<entry id="str_inventory_title_trinketmiko_occultorb"><![CDATA[Sphere of the Occult]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_miko_yin"><![CDATA[Yin]]></entry>
+		<entry id="str_inventory_title_trinketcc_set_miko_yang"><![CDATA[Yang]]></entry>
+		<entry id="str_inventory_set_title_cc_miko"><![CDATA["Nobody cares about the fate of lost Gods..."]]></entry>
+		<entry id="str_inventory_title_trinketcom_miko_gap"><![CDATA[Fallacious Gap]]></entry>
+		<entry id="str_inventory_title_trinketsi_miko_merciless"><![CDATA[Merciless Gohei]]></entry>
+
+	<!-- Events -->
+	<entry id="town_event_title_2husunward_miko"><![CDATA[Maiden of Paradise]]></entry>
+	<entry id="town_event_description_2husunward_miko"><![CDATA[Where Yokai stir trouble, the crimson and ivory Maiden is, reluctantly, never far behind.]]></entry>
+	
+		<!-- Barks -->
+		
+			<!-- She would be annoying without this. Leave This Blank. -->
+	<entry id="miko+str_combat_knockback"><![CDATA[]]></entry>
+	
+			<!-- Crit -->
+	<entry id="miko+str_critbyhero"><![CDATA[Did you think someone would extend a hand in rescue?]]></entry>
+    <entry id="miko+str_critbyhero"><![CDATA[Pray if you'd like.]]></entry>
+    <entry id="miko+str_critbyhero"><![CDATA[That one was supposed to be strong?]]></entry>
+    <entry id="miko+str_critbyhero"><![CDATA[How's that!?]]></entry>
+    <entry id="miko+str_critbyhero"><![CDATA[Leave this world.]]></entry>
+    <entry id="miko+str_critbyhero"><![CDATA[This is the power of those who serve gods!]]></entry>
+    <entry id="miko+str_critbyhero"><![CDATA[That one opened right up.]]></entry>
+	<entry id="miko+str_critbyhero"><![CDATA[Good medicine tastes bitter.]]></entry>
+	<entry id="miko+str_critbyhero"><![CDATA[Now you know how it feels.]]></entry>
+	<entry id="miko+str_critbyhero"><![CDATA[I am death, in a shower of pedals.]]></entry>
+	<entry id="miko+str_critbyhero"><![CDATA[You only exist to be exterminated.]]></entry>
+	
+	<!-- Skill Barks -->
+				<!--Intentionally Blank -->
+	<entry id="str_miko_spellcard"><![CDATA[]]></entry>
+	<entry id="str_miko_spellcard_react"><![CDATA[]]></entry>
+	<entry id="str_miko_crimson_react"><![CDATA[]]></entry>
+
+				<!-- Miko's Chuuni Bullshit -->
+	<entry id="miko+str_miko_spellcard"><![CDATA[How's that!?]]></entry>
+	<entry id="miko+str_miko_spellcard"><![CDATA[Eh, whatever.]]></entry>
+	<entry id="miko+str_miko_spellcard"><![CDATA[Consider this your burial rites.]]></entry>
+	<entry id="miko+str_miko_spellcard"><![CDATA[Can we get this over with soon?]]></entry>
+	<entry id="miko+str_miko_spellcard"><![CDATA[Made me use a spellcard, happy now?]]></entry>
+
+	
+				<!-- Miko's Reactions -->
+	<entry id="miko+str_the_world_react"><![CDATA[(Timestop, huh? Then why can I still talk right now?)]]></entry>
+	<entry id="miko+str_the_world_react"><![CDATA[(You're always doing something weird, aren't you?)]]></entry>
+	<entry id="miko+str_the_world_react"><![CDATA[(Deceitless sleight-of-hand is still sleight-of-hand.)]]></entry>
+	<entry id="miko+str_the_world_react"><![CDATA[(Good thing it's dark down here so I don't have to see your awful danmaku.)]]></entry>
+	<entry id="miko+str_the_world_react"><![CDATA[(Yeah, real mystical. Why are you taking this so seriously?)]]></entry>
+	<entry id="miko+str_the_world_react"><![CDATA[(Whatever, less work for me.)]]></entry>
+	
+			<!-- Heart Attack -->
+	<entry id="miko+str_heart_attack_crimson"><![CDATA[NOT LIKE THIS!]]></entry>
+	<entry id="miko+str_heart_attack_crimson"><![CDATA[BUT I WASN'T HIT!?]]></entry>
+		
+	<!-- Roster -->
+	<entry id="miko+str_stagecoach_idle"><![CDATA[How much are we getting paid?]]></entry>	
+    <entry id="miko+str_stagecoach_idle"><![CDATA[What a dump.]]></entry>
+    <entry id="miko+str_stagecoach_idle"><![CDATA[Nothing I haven't seen before.]]></entry>
+    <entry id="miko+str_stagecoach_idle"><![CDATA[Is there benefits?]]></entry>
+    <entry id="miko+str_stagecoach_idle"><![CDATA[Well, I can see why she came here now.]]></entry>
+	<entry id="miko+str_stagecoach_idle"><![CDATA[Alright Maid, I'm here. What do you want b- Oh...]]></entry>
+	<entry id="miko+str_roster_list_low_stress_bark"><![CDATA[Pretty easy so far.]]></entry>
+	<entry id="miko+str_roster_list_low_stress_bark"><![CDATA[(Snoring)]]></entry>
+	<entry id="miko+str_roster_list_low_stress_bark"><![CDATA[This is so boring I could die.]]></entry>
+    <entry id="miko+str_roster_list_low_stress_bark"><![CDATA[What about next week?]]></entry>
+    <entry id="miko+str_roster_list_low_stress_bark"><![CDATA[Does it have to be me?]]></entry>
+    <entry id="miko+str_roster_list_medium_stress_bark"><![CDATA[Everything's my responsibility, isn't it.]]></entry>
+    <entry id="miko+str_roster_list_medium_stress_bark"><![CDATA[I need a drink.]]></entry>
+    <entry id="miko+str_roster_list_medium_stress_bark"><![CDATA[Overtime pay perhaps?]]></entry>
+    <entry id="miko+str_roster_list_high_stress_bark"><![CDATA[I'm behind on my prayers.]]></entry>
+    <entry id="miko+str_roster_list_high_stress_bark"><![CDATA[This place is no different.]]></entry>
+    <entry id="miko+str_roster_list_high_stress_bark"><![CDATA[Ask someone else.]]></entry>
+	<entry id="str_roster_list_crimson_bark"><![CDATA[Sitting around here's becoming a bore.]]></entry>
+	<entry id="miko+str_roster_list_crimson_bark"><![CDATA[Another day, another incident...]]></entry>
+	<entry id="miko+str_roster_list_crimson_bark"><![CDATA[How can anyone be expected to relax in a place like this?]]></entry>
+	<entry id="miko+str_roster_list_crimson_bark"><![CDATA[There's Youkai that need exterminating.]]></entry>
+	<entry id="miko+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Doesn't matter what I saw... It's exterminated now.]]></entry>
+    <entry id="miko+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[I've been through Hell and Makai, I'm fine...]]></entry>
+    <entry id="miko+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Why am I here?]]></entry>
+    <entry id="miko+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Why are you looking at me?]]></entry>
+
+			<!-- Activities -->
+	<entry id="miko+str_override_invalid_rejection"><![CDATA[It's my duty to offer up faith, I can't get distracted like this.]]></entry>
+	<entry id="miko+str_roster_list_prayer_bark"><![CDATA[Grant me the strength and peace of the Light.]]></entry>
+	
+			<!-- Camping Skills -->
+	<entry id="miko+str_bark_danmaku_mk"><![CDATA[The pattern game? I'm quite good at it.]]></entry>
+	<entry id="miko+str_bark_ofuda_warding"><![CDATA[I'd like to see them try and get past this.]]></entry>
+	<entry id="miko+str_bark_possession"><![CDATA[(low murmurs)]]></entry>
+	<entry id="miko+str_bark_possession"><![CDATA[(Come on... you can hear me right?)]]></entry>
+	<entry id="miko+str_bark_bomb_brew"><![CDATA[It's not appitizing, but it does the trick.]]></entry>
+	
+	<entry id="miko+str_bark_encourage"><![CDATA[Take this, it'll bring you good luck.]]></entry>
+	<entry id="miko+str_bark_encourage"><![CDATA[Come on, I don't need you falling apart on me.]]></entry>
+	<entry id="miko+str_bark_encourage"><![CDATA[However innumerable all beings are, I vow to save them all.]]></entry>
+	
+	<entry id="miko+str_bark_first_aid"><![CDATA[Look, I'm playing this by ear.]]></entry>
+	<entry id="miko+str_bark_first_aid"><![CDATA[That sure is a lot of blood.]]></entry>
+	<entry id="miko+str_bark_first_aid"><![CDATA[It's just a graze, you'll be fine.]]></entry>
+	
+	<entry id="miko+str_bark_pep_talk"><![CDATA[Just take it easy.]]></entry>
+	
+	
+			<!-- Light -->
+	<entry id="miko+str_bark_torch_0"><![CDATA[Hm, getting dark.]]></entry>
+	<entry id="miko+str_bark_torch_0"><![CDATA[Can someone take care of that torch?]]></entry>
+    <entry id="miko+str_bark_torch_1"><![CDATA[Watch your step.]]></entry>
+    <entry id="miko+str_bark_torch_1"><![CDATA[I can see just fine, you know.]]></entry>
+    <entry id="miko+str_bark_torch_2"><![CDATA[(stumbling) I'm telling you, I'm not night-blind.]]></entry>
+	<entry id="miko+str_bark_torch_2"><![CDATA[I've brought the light back once before, I'll do it again.]]></entry>
+	
+			<!-- Taking Stress -->
+	<entry id="miko+str_bark_increasingstress"><![CDATA[(sighs)]]></entry>
+	<entry id="miko+str_bark_increasingstress"><![CDATA[My heart fills...]]></entry>
+	<entry id="miko+str_bark_increasingstress"><![CDATA[This too shall pass...]]></entry>
+	<entry id="miko+str_bark_increasingstress"><![CDATA[This old mountain trail goes on and on...]]></entry>
+	<entry id="miko+str_bark_increasingstress"><![CDATA[Caught again between Makai and Hell.]]></entry>
+	<entry id="miko+str_bark_increasingstress"><![CDATA[Just a small setback, really.]]></entry>
+	<entry id="miko+str_bark_increasingstress"><![CDATA[Why the looks? Everything's just fine...]]></entry>
+	
+			<!-- Taking Damage/DoTs -->
+	<entry id="miko+str_bark_bigwound"><![CDATA[Best you got?!]]></entry>
+	<entry id="miko+str_bark_bigwound"><![CDATA[How about we try that again?]]></entry>
+	<entry id="miko+str_bark_bigwound"><![CDATA[Just a lucky hit.]]></entry>
+	<entry id="miko+str_bark_bigwound"><![CDATA[You're just making it worse for yourself.]]></entry>
+	<entry id="miko+str_bark_bleeddot"><![CDATA[Enh? It's not stopping.]]></entry>
+	<entry id="miko+str_bark_bleeddot"><![CDATA[Well this isn't good.]]></entry>
+	<entry id="miko+str_bark_bleeddot"><![CDATA[Now I just look like the one-toned maiden.]]></entry>
+	<entry id="miko+str_bark_poisondot"><![CDATA[What's happening to me?!]]></entry>
+    <entry id="miko+str_bark_poisondot"><![CDATA[This wound's burning, why?!]]></entry>
+    <entry id="miko+str_bark_poisondot"><![CDATA[Hurry up and make it stop!]]></entry>
+	<entry id="miko+str_bark_bigwound_ally"><![CDATA[Why'd you go and let yourself get hit like that?!]]></entry>
+	
+		<!-- Death's Door -->
+	<entry id="miko+str_bark_deathsdoor"><![CDATA[Soon, I'll be forgotten as well.]]></entry>
+	<entry id="miko+str_bark_deathsdoor"><![CDATA[All thats left is a sharp, red, pain...]]></entry>
+	<entry id="miko+str_bark_deathsdoor"><![CDATA[You guys owe me big for this!]]></entry>
+	<entry id="miko+str_bark_deathsdoor"><![CDATA[But.. the protagonist can't die... That's me, right?]]></entry>
+	<entry id="miko+str_bark_deathsdoorsurvive"><![CDATA[Thought that would stop me?]]></entry>
+	<entry id="miko+str_bark_deathsdoorsurvive"><![CDATA[Looks like I get another chance.]]></entry>
+	<entry id="miko+str_bark_deathsdoorsurvive"><![CDATA[Alright, next round.]]></entry>
+	<entry id="miko+str_bark_deathsdoorsurvive_ally"><![CDATA[On your feet! You can continue on!]]></entry>
+	<entry id="miko+str_bark_deathsdoorsurvive_ally"><![CDATA[Don't give up!]]></entry>
+		
+			<!-- Affliction -->
+	<entry id="str_affliction_name_crimson"><![CDATA[Roaring]]></entry>
+	
+	<entry id="miko+str_afflicted_crimson"><![CDATA[Your execution. Shall we begin?]]></entry>
+    <entry id="miko+str_afflicted_crimson"><![CDATA[Let the plundering begin!]]></entry>
+    <entry id="miko+str_afflicted_crimson"><![CDATA[You really think you can stop me, huh?]]></entry>
+    <entry id="miko+str_afflicted_crimson"><![CDATA[Ahh, It's was so boring until now.]]></entry>
+    <entry id="miko+str_afflicted_crimson"><![CDATA[These ordinary days are just way too brittle.]]></entry>
+	<entry id="miko+str_afflicted_crimson"><![CDATA[You'd better be ready for a fight!]]></entry>
+	<entry id="miko+str_afflicted_crimson"><![CDATA[Looks like it's going to be a long night.]]></entry>
+	<entry id="miko+str_afflicted_crimson"><![CDATA[Alright, enough joking around.]]></entry>
+	<entry id="miko+str_afflicted_crimson"><![CDATA[Return beneath the flowers, creatures of the abyss.]]></entry>
+	
+	
+    <entry id="miko+str_attack_friendly_crimson"><![CDATA[Can't you be helpful for once?!]]></entry>
+    <entry id="miko+str_attack_friendly_crimson"><![CDATA[Everyone's crowding me!]]></entry>
+    <entry id="miko+str_attack_friendly_crimson"><![CDATA[Clear out of here!]]></entry>
+    <entry id="miko+str_attack_friendly_crimson"><![CDATA[Who even are you?!]]></entry>
+
+	<entry id="miko+str_change_pos_crimson"><![CDATA[Out of my way!]]></entry>
+	<entry id="miko+str_change_pos_crimson"><![CDATA[Swap with me, idiot.]]></entry>
+	<entry id="miko+str_change_pos_crimson"><![CDATA[Move it.]]></entry>
+	<entry id="miko+str_change_pos_crimson"><![CDATA[You're in my way.]]></entry>
+
+	
+    <entry id="miko+str_bark_stress_crimson"><![CDATA[Heh. Heh. Heh.]]></entry>
+    <entry id="miko+str_bark_stress_crimson"><![CDATA[I know my fate, what of the rest of you?]]></entry>
+    <entry id="miko+str_bark_stress_crimson"><![CDATA[This place is not hell, is it? ]]></entry>
+    <entry id="miko+str_bark_stress_crimson"><![CDATA[Only the shattered fragments of the past remain...]]></entry>
+	
+    <entry id="miko+str_bark_stress_camp_crimson"><![CDATA[I feel like something is wrong...]]></entry>
+    <entry id="miko+str_bark_stress_camp_crimson"><![CDATA[This ominous feeling... doesn't make me happy at all.]]></entry>
+    <entry id="miko+str_bark_stress_camp_crimson"><![CDATA[Shush, keep it up and I'll tear off your skin.]]></entry>
+    <entry id="miko+str_bark_stress_camp_crimson"><![CDATA[It's all just some lunatic delusion...]]></entry>
+	
+    <entry id="miko+str_block_camping_skill_performer_crimson"><![CDATA[I'm tired of charity work.]]></entry>
+    <entry id="miko+str_block_camping_skill_performer_crimson"><![CDATA[Leave me to my prayers.]]></entry>
+    <entry id="miko+str_block_camping_skill_performer_crimson"><![CDATA[Can't you see I'm trying to relax?]]></entry>
+    <entry id="miko+str_block_camping_skill_performer_crimson"><![CDATA[Yeah, whatever.]]></entry>
+	
+    <entry id="miko+str_block_combat_retreat_crimson"><![CDATA[Hey, I have business here. I'm not going home yet.]]></entry>
+    <entry id="miko+str_block_combat_retreat_crimson"><![CDATA[And miss all the fun?!]]></entry>
+    <entry id="miko+str_block_combat_retreat_crimson"><![CDATA[This horrible scene is your doing, isn't it?]]></entry>
+	
+    <entry id="miko+str_comment_self_hit_crimson"><![CDATA[It looks like our excitement is about to lower as well.]]></entry>
+    <entry id="miko+str_comment_self_hit_crimson"><![CDATA[Really getting tired of all this.]]></entry>
+    <entry id="miko+str_comment_self_hit_crimson"><![CDATA[I just wanted to be done.]]></entry>
+	<entry id="miko+str_monster_user_selected_targets_kill_pill"><![CDATA[Maybe it's a dream; maybe nothing else is real.]]></entry>
+    <entry id="miko+str_comment_self_hit_crimson"><![CDATA[That wouldn't of happened if I wasn't weighed down by fools.]]></entry>
+    <entry id="miko+str_comment_self_hit_crimson"><![CDATA[Faithless, worthless, all of you!]]></entry>
+	
+	<entry id="miko+str_comment_ally_attack_missed_crimson"><![CDATA[You've got special needs, it seems.]]></entry>
+	<entry id="miko+str_comment_ally_attack_missed_crimson"><![CDATA[Doesn't someone usually pop out with a response at a time like this?]]></entry>
+	<entry id="miko+str_comment_ally_attack_missed_crimson"><![CDATA[Which one were you trying to hit?!]]></entry>
+	<entry id="miko+str_comment_ally_attack_missed_crimson"><![CDATA[I wish I didn't have to see your terrible attack.]]></entry>
+	<entry id="miko+str_comment_ally_attack_missed_crimson"><![CDATA[Try a little harder, would you?]]></entry>
+	
+	<entry id="miko+str_comment_ally_hit_crimson"><![CDATA[I can tell you're not long for this world.]]></entry>
+	<entry id="miko+str_comment_ally_hit_crimson"><![CDATA[You didn't even try to get out of the way!]]></entry>
+	<entry id="miko+str_comment_ally_hit_crimson"><![CDATA[Sluggish oaf!]]></entry>
+	<entry id="miko+str_comment_ally_hit_crimson"><![CDATA[The sight of your movements alone could kill me!]]></entry>
+	<entry id="miko+str_comment_ally_hit_crimson"><![CDATA[You're just letting them hit you, right?!]]></entry>
+    
+    <entry id="miko+str_random_command_crimson"><![CDATA[Don't try and tell me how to do my job!]]></entry>
+    <entry id="miko+str_random_command_crimson"><![CDATA[I put these sorts down in my sleep!]]></entry>
+    <entry id="miko+str_random_command_crimson"><![CDATA[Lunacy is what you wanted, wasn't it?]]></entry>
+    <entry id="miko+str_random_command_crimson"><![CDATA[Shut up.]]></entry>
+    <entry id="miko+str_random_command_crimson"><![CDATA[Just sit back and watch.]]></entry>
+	
+	<entry id="miko+str_stress_heal_self_crimson"><![CDATA[(Deep breath)]]></entry>
+	<entry id="miko+str_stress_heal_self_crimson"><![CDATA[Loathing this unclean world, seeking rebirth in a pure land..]]></entry>
+	<entry id="miko+str_stress_heal_self_crimson"><![CDATA[Even if I die, I can still go flower-viewing.]]></entry>
+	<entry id="miko+str_stress_heal_self_crimson"><![CDATA[Just a moment to center myself, okay...]]></entry>
+	
+	<entry id="miko+str_buff_party_crimson"><![CDATA[There's no way I'd let you escape!]]></entry>
+	<entry id="miko+str_buff_party_crimson"><![CDATA[You can't hide, I can see the evil around you.]]></entry>
+	<entry id="miko+str_buff_party_crimson"><![CDATA[So slow and dumb.]]></entry>
+	<entry id="miko+str_buff_party_crimson"><![CDATA[How about I put an end to this?]]></entry>
+	
+	<entry id="trigger_curio_affliction_crimson"><![CDATA[Donation accepted.]]></entry>
+	<entry id="miko+trigger_curio_affliction_crimson"><![CDATA[Donation accepted.]]></entry>
+	<entry id="miko+str_keep_loot_string"><![CDATA[As if I'll be letting go of this.]]></entry>
+	<entry id="miko+str_comment_curio_interaction_crimson"><![CDATA[Eh? Where's the treasure?]]></entry>
+	
+	<entry id="miko+str_comment_self_missed_crimson"><![CDATA[I don't have time to deal with those that die easily, like you!]]></entry>
+	<entry id="miko+str_comment_self_missed_crimson"><![CDATA[That's as close as you'll get.]]></entry>
+	<entry id="miko+str_comment_self_missed_crimson"><![CDATA[You're not really trying either, right?]]></entry>
+	<entry id="miko+str_comment_self_missed_crimson"><![CDATA[Attacks like that just makes this feel like busy work.]]></entry>
+	
+	
+
+	<!-- Camp barks -->
+	<entry id="miko+str_bark_stress_partyhigh"><![CDATA[why am I always stuck with unreliable sorts?]]></entry>
+    <entry id="miko+str_bark_stress_partyhigh"><![CDATA[For heroes, you sure crack easy.]]></entry>
+    <entry id="miko+str_bark_stress_partyhigh"><![CDATA[Can't we rest longer than this?]]></entry>
+
+    <entry id="miko+str_bark_stress_partylow"><![CDATA[I said it'd be a breeze, didn't I?]]></entry>
+    <entry id="miko+str_bark_stress_partylow"><![CDATA[Just keep staying out of my way and we'll be fine.]]></entry>
+    <entry id="miko+str_bark_stress_partylow"><![CDATA[Was bringing me along even necessary?]]></entry>
+    <entry id="miko+str_bark_stress_partylow"><![CDATA[Maybe let me sleep a little longer? You guys got everything covered, right?]]></entry>
+    <entry id="miko+str_bark_stress_partylow"><![CDATA[Sure beats waiting for donations.]]></entry>
+	
+    <entry id="miko+str_bark_hp_partylow"><![CDATA[We need to be quicker on our feet.]]></entry>
+    <entry id="miko+str_bark_hp_partylow"><![CDATA[Taking so many hits... this trips not going well.]]></entry>
+    <entry id="miko+str_bark_hp_partylow"><![CDATA[Spread out more next time.]]></entry>
+    <entry id="miko+str_bark_hp_partylow"><![CDATA[We're turning things around next time, right?]]></entry>
+	
+    <entry id="miko+str_bark_hp_partyhigh"><![CDATA[Keep it up and maybe some of you will make it out with me.]]></entry>
+    <entry id="miko+str_bark_hp_partyhigh"><![CDATA[Some of you got the hang of it.]]></entry>
+    <entry id="miko+str_bark_hp_partyhigh"><![CDATA[Their aim is worse than some of you smell.]]></entry>
+    <entry id="miko+str_bark_hp_partyhigh"><![CDATA[(yawn) When are they getting serious?]]></entry>
+
+    <entry id="miko+str_bark_hp_selflow"><![CDATA[There's no room to dodge in this place.]]></entry>
+    <entry id="miko+str_bark_hp_selflow"><![CDATA[Just a lucky hit, I'm fine.]]></entry>
+    <entry id="miko+str_bark_hp_selflow"><![CDATA[It's like they have a grudge or something.]]></entry>
+    <entry id="miko+str_bark_hp_selflow"><![CDATA[Maybe I really was abandoned...]]></entry>
+
+    <entry id="miko+str_bark_hp_selfhigh"><![CDATA[Not a scratch on me!]]></entry>
+    <entry id="miko+str_bark_hp_selfhigh"><![CDATA[Life's fickle, but it's smiling on me today.]]></entry>
+    <entry id="miko+str_bark_hp_selfhigh"><![CDATA[Rest of you can keep up with me, right?]]></entry>
+    <entry id="miko+str_bark_hp_selfhigh"><![CDATA[It's foolish on their part to stand against me today.]]></entry>
+
+    <entry id="miko+str_bark_stress_selflow"><![CDATA[I'll be resting easy tonight.]]></entry>
+    <entry id="miko+str_bark_stress_selflow"><![CDATA[I bet they're more scared than any of you are.]]></entry>
+    <entry id="miko+str_bark_stress_selflow"><![CDATA[I spent less energy than I though.]]></entry>
+    <entry id="miko+str_bark_stress_selflow"><![CDATA[Demons here are trying too hard, if you ask me.]]></entry>
+
+    <entry id="miko+str_bark_stress_selfhigh"><![CDATA[Could the rest of you get off my back?]]></entry>
+    <entry id="miko+str_bark_stress_selfhigh"><![CDATA[Why's it feel like I'm stuck doing everything?]]></entry>
+    <entry id="miko+str_bark_stress_selfhigh"><![CDATA[Sooner I'm out of here, the better.]]></entry>
+    <entry id="miko+str_bark_stress_selfhigh"><![CDATA[Just pretend like I'm not here.]]></entry>
+
+    <entry id="miko+str_bark_party_great_condition"><![CDATA[Keep up the good work!]]></entry>
+    <entry id="miko+str_bark_party_great_condition"><![CDATA[Perhaps the Gods are amused with us.]]></entry>
+    <entry id="miko+str_bark_party_great_condition"><![CDATA[Now don't throw it last minute, alright?]]></entry>
+    <entry id="miko+str_bark_party_great_condition"><![CDATA[]]></entry>
+
+    <entry id="miko+str_bark_party_poor_condition"><![CDATA[Life itself is a cold thing.]]></entry>
+    <entry id="miko+str_bark_party_poor_condition"><![CDATA[I'd be better off going it alone!]]></entry>
+    <entry id="miko+str_bark_party_poor_condition"><![CDATA[Karma's taking more than it's owed, don't you think?]]></entry>
+    <entry id="miko+str_bark_party_poor_condition"><![CDATA[Are all of you really content with dying here?]]></entry>
+
+    <entry id="miko+str_bark_firewood_low"><![CDATA[We're out of wood? Not it.]]></entry>
+    <entry id="miko+str_bark_firewood_low"><![CDATA[Fire wood? Can't we just burn some of this other stuff?]]></entry>
+
+	
+    <entry id="miko+str_bark_provisions_low"><![CDATA[(stomach growling) Well, this is familiar.]]></entry>
+    <entry id="miko+str_bark_provisions_low"><![CDATA[Just tough it out, a good meal is just around the corner!]]></entry>
+    <entry id="miko+str_bark_provisions_low"><![CDATA[Which of you got greedy with the food?]]></entry>
+    <entry id="miko+str_bark_provisions_low"><![CDATA[There's always grass if you're hungry...]]></entry>
+
+    <entry id="miko+str_bark_provisions_high"><![CDATA[Ahhh, I can already picture the feast we could have later.]]></entry>
+    <entry id="miko+str_bark_provisions_high"><![CDATA[With all this food, I really can't be too worried.]]></entry>
+    <entry id="miko+str_bark_provisions_high"><![CDATA[Just keep the meals coming, I'll take care of the rest.]]></entry>
+    <entry id="miko+str_bark_provisions_high"><![CDATA[All this food... Maybe he's still with me.]]></entry>
+	
+    <entry id="miko+str_bark_firewood_high"><![CDATA[What's all these sticks for?]]></entry>
+    <entry id="miko+str_bark_firewood_high"><![CDATA[With all the kindling, we atleast won't go cold.]]></entry>
+
+    <entry id="miko+str_bark_companionship"><![CDATA[Alright, don't wake me unless it's an emergancy.]]></entry>
+		
+		<!-- Subtitles -->
+	<entry id="str_vo_town_recruit_miko_0"><![CDATA[A little hope, however desperate, is never without worth.]]></entry>
+	<entry id="str_vo_bad_afflicted_crimson_0"><![CDATA[And now... the darkness holds dominion – black as death.]]></entry>
+		
+			<!-- Party Names -->
+	<entry id="party_name_861534"><![CDATA[Prayer Response Team]]></entry>
+	<entry id="party_name_861535"><![CDATA[Sunward Crusade]]></entry>
+	<entry id="party_name_861536"><![CDATA[Stunlocks]]></entry>
+	<entry id="party_name_861537"><![CDATA[Four Desires]]></entry>
+	<entry id="party_name_861538"><![CDATA[Amanojaku's Bounty]]></entry>
+	<entry id="party_name_861539"><![CDATA[Double Dealers]]></entry>
+	<entry id="party_name_861540"><![CDATA[Crimson Slashers]]></entry>
+	<entry id="party_name_861541"><![CDATA[Dancing Mad]]></entry>
+
+	</language>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</root>

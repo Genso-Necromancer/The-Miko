@@ -1,0 +1,20 @@
+
+miko.sprite.barrier_target.png
+size: 604,587
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barrier
+  rotate: true
+  xy: 2, 259
+  size: 326, 600
+  orig: 326, 600
+  offset: 0, 0
+  index: -1
+barrier border
+  rotate: true
+  xy: 2, 2
+  size: 255, 540
+  orig: 255, 540
+  offset: 0, 0
+  index: -1

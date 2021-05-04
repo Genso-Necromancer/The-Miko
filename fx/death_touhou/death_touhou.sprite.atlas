@@ -1,0 +1,27 @@
+
+death_touhou.sprite.png
+size: 968,324
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+death_rim
+  rotate: false
+  xy: 2, 2
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+death_skull
+  rotate: false
+  xy: 324, 2
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+power_item
+  rotate: false
+  xy: 646, 2
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+miko.sprite.persuasion_needle.png
+size: 1027,924
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+persuasionneedle
+  rotate: true
+  xy: 2, 2
+  size: 920, 959
+  orig: 920, 959
+  offset: 0, 0
+  index: -1
+sakuya_combat_shadow
+  rotate: true
+  xy: 963, 565
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

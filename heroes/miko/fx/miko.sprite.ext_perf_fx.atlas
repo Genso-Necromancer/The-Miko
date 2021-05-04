@@ -1,0 +1,90 @@
+
+miko.sprite.ext_perf_fx.png
+size: 2482,711
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gohei Inversion
+  rotate: false
+  xy: 2, 2
+  size: 1174, 243
+  orig: 1174, 243
+  offset: 0, 0
+  index: -1
+GoheiShockBones
+  rotate: true
+  xy: 2, 247
+  size: 462, 368
+  orig: 462, 368
+  offset: 0, 0
+  index: -1
+GoheiShockCharge
+  rotate: true
+  xy: 372, 247
+  size: 462, 368
+  orig: 462, 368
+  offset: 0, 0
+  index: -1
+GoheiShockDischarge
+  rotate: true
+  xy: 742, 247
+  size: 462, 368
+  orig: 462, 368
+  offset: 0, 0
+  index: -1
+ZapOrbLastStepA
+  rotate: false
+  xy: 1112, 382
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbLastStepB
+  rotate: false
+  xy: 1178, 53
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbLastStepC
+  rotate: false
+  xy: 1437, 382
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStart
+  rotate: false
+  xy: 1503, 53
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStep1A
+  rotate: false
+  xy: 1762, 382
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStep1B
+  rotate: false
+  xy: 1828, 53
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStep2A
+  rotate: false
+  xy: 2087, 382
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStep2B
+  rotate: true
+  xy: 2153, 57
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1

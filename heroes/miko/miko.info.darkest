@@ -1,0 +1,263 @@
+resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 40% .death_blow 67% .trap 5%
+crit: .effects "Miko Crit"
+weapon: .name "miko_weapon_0" .atk 0% .dmg 6 12  .crit 5% .spd 4
+weapon: .name "miko_weapon_1" .atk 0% .dmg 7 14  .crit 6% .spd 4 .upgradeRequirementCode 0
+weapon: .name "miko_weapon_2" .atk 0% .dmg 8 16  .crit 7% .spd 5 .upgradeRequirementCode 1
+weapon: .name "miko_weapon_3" .atk 0% .dmg 9 17  .crit 8% .spd 5 .upgradeRequirementCode 2
+weapon: .name "miko_weapon_4" .atk 0% .dmg 10 19 .crit 9% .spd 6 .upgradeRequirementCode 3
+armour: .name "miko_armour_0" .def 10% .prot 0 .hp 20 .spd 0
+armour: .name "miko_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "miko_armour_2" .def 20% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1
+armour: .name "miko_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 2
+armour: .name "miko_armour_4" .def 30% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "extermination" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 3% .launch 321 .target 123 .effect "Youkai Killer 1" "Youkai Killer TT 1" "Miko Rhythm TT" "Miko Rhythm" "Miko Miss Rhythm Break" "RULES OF NATURE" .is_crit_valid True .generation_guaranteed true
+combat_skill: .id "extermination" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 4% .launch 321 .target 123 .effect "Youkai Killer 2" "Youkai Killer TT 2" "Miko Rhythm TT" "Miko Rhythm" "Miko Miss Rhythm Break" "RULES OF NATURE" .is_crit_valid True 
+combat_skill: .id "extermination" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 5% .launch 321 .target 123 .effect "Youkai Killer 3" "Youkai Killer TT 3" "Miko Rhythm TT" "Miko Rhythm" "Miko Miss Rhythm Break" "RULES OF NATURE" .is_crit_valid True 
+combat_skill: .id "extermination" .level 3 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 321 .target 123 .effect "Youkai Killer 4" "Youkai Killer TT 4" "Miko Rhythm TT" "Miko Rhythm" "Miko Miss Rhythm Break" "RULES OF NATURE" .is_crit_valid True 
+combat_skill: .id "extermination" .level 4 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 321 .target 123 .effect "Youkai Killer 5" "Youkai Killer TT 5" "Miko Rhythm TT" "Miko Rhythm" "Miko Miss Rhythm Break" "RULES OF NATURE" .is_crit_valid True 
+
+combat_skill: .id "persuasion_needle" .level 0 .type "ranged" .atk 90%  .dmg -75% .crit 5% .move 0 1 .launch 43 .target 1234 .is_crit_valid True  .effect "Needle Persuasion 1" "Miko Mark" .is_stall_invalidating false 
+combat_skill: .id "persuasion_needle" .level 1 .type "ranged" .atk 95%  .dmg -75% .crit 6% .move 0 1 .launch 43 .target 1234 .is_crit_valid True  .effect "Needle Persuasion 2" "Miko Mark" .is_stall_invalidating false 
+combat_skill: .id "persuasion_needle" .level 2 .type "ranged" .atk 100% .dmg -75% .crit 7% .move 0 1 .launch 43 .target 1234 .is_crit_valid True  .effect "Needle Persuasion 3" "Miko Mark" .is_stall_invalidating false 
+combat_skill: .id "persuasion_needle" .level 3 .type "ranged" .atk 105% .dmg -75% .crit 8% .move 0 1 .launch 43 .target 1234 .is_crit_valid True  .effect "Needle Persuasion 4" "Miko Mark" .is_stall_invalidating false 
+combat_skill: .id "persuasion_needle" .level 4 .type "ranged" .atk 110% .dmg -75% .crit 9% .move 0 1 .launch 43 .target 1234 .is_crit_valid True  .effect "Needle Persuasion 5" "Miko Mark" .is_stall_invalidating false 
+
+combat_skill: .id "evil_sealing_circle" .level 0 .type "ranged" .atk 90%  .dmg -50% .crit 2% .move 1 0 .launch 21 .target 123 .is_crit_valid True  .effect "Miko ESC TT" "Miko Stun 1" "Miko Hama Scale 1" "Miko Hama Scale 2" .is_stall_invalidating false 
+combat_skill: .id "evil_sealing_circle" .level 1 .type "ranged" .atk 95%  .dmg -50% .crit 3% .move 1 0 .launch 21 .target 123 .is_crit_valid True  .effect "Miko ESC TT" "Miko Stun 2" "Miko Hama Scale 1" "Miko Hama Scale 2" .is_stall_invalidating false 
+combat_skill: .id "evil_sealing_circle" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 4% .move 1 0 .launch 21 .target 123 .is_crit_valid True  .effect "Miko ESC TT" "Miko Stun 3" "Miko Hama Scale 1" "Miko Hama Scale 2" .is_stall_invalidating false 
+combat_skill: .id "evil_sealing_circle" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 5% .move 1 0 .launch 21 .target 123 .is_crit_valid True  .effect "Miko ESC TT" "Miko Stun 4" "Miko Hama Scale 1" "Miko Hama Scale 2" .is_stall_invalidating false 
+combat_skill: .id "evil_sealing_circle" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 6% .move 1 0 .launch 21 .target 123 .is_crit_valid True  .effect "Miko ESC TT" "Miko Stun 5" "Miko Hama Scale 1" "Miko Hama Scale 2" .is_stall_invalidating false 
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing TT 1" "Dance and Swagger R1&2 Check" "Dance and Swagger back" "Dance and Swagger R3&4 Check" "Dance and Swagger forward" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing TT 2" "Dance and Swagger R1&2 Check" "Dance and Swagger back" "Dance and Swagger R3&4 Check" "Dance and Swagger forward" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing TT 3" "Dance and Swagger R1&2 Check" "Dance and Swagger back" "Dance and Swagger R3&4 Check" "Dance and Swagger forward" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing TT 4" "Dance and Swagger R1&2 Check" "Dance and Swagger back" "Dance and Swagger R3&4 Check" "Dance and Swagger forward" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing TT 5" "Dance and Swagger R1&2 Check" "Dance and Swagger back" "Dance and Swagger R3&4 Check" "Dance and Swagger forward" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling2" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling2" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling2" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling2" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling2" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling3" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling3" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling3" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling3" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling3" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling4" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling4" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling4" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling4" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling4" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling5" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling5" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling5" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling5" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling5" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling6" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling6" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling6" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling6" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling6" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling7" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling7" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling7" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling7" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling7" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling8" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling8" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling8" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling8" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling8" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling9" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling9" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling9" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling9" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling9" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling10" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling10" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling10" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling10" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling10" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling11" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling11" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling11" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling11" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling11" .is_stall_invalidating true
+
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling12" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling12" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling12" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling12" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling12" .is_stall_invalidating true
+
+combat_skill: .id "disaster_dispelling_prayer" .level 0 .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .self_target_valid true .effect "Prayer SH 1" .is_stall_invalidating false 
+combat_skill: .id "disaster_dispelling_prayer" .level 1 .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .self_target_valid true .effect "Prayer SH 2" .is_stall_invalidating false 
+combat_skill: .id "disaster_dispelling_prayer" .level 2 .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .self_target_valid true .effect "Prayer SH 3" .is_stall_invalidating false 
+combat_skill: .id "disaster_dispelling_prayer" .level 3 .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .self_target_valid true .effect "Prayer SH 4" .is_stall_invalidating false 
+combat_skill: .id "disaster_dispelling_prayer" .level 4 .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .self_target_valid true .effect "Prayer SH 5" .is_stall_invalidating false 
+
+combat_skill: .id "permanent_border" .level 0  .atk 0% .dmg 0% .crit 0% .launch 43 .move 0 0 .target @~1234 .self_target_valid true  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SpellCard" "Border SH 1" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard"  .is_stall_invalidating false 
+combat_skill: .id "permanent_border" .level 1  .atk 0% .dmg 0% .crit 0% .launch 43 .move 0 0 .target @~1234 .self_target_valid true  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SpellCard" "Border SH 2" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard"  .is_stall_invalidating false 
+combat_skill: .id "permanent_border" .level 2  .atk 0% .dmg 0% .crit 0% .launch 43 .move 0 0 .target @~1234 .self_target_valid true  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SpellCard" "Border SH 3" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard"  .is_stall_invalidating false 
+combat_skill: .id "permanent_border" .level 3  .atk 0% .dmg 0% .crit 0% .launch 43 .move 0 0 .target @~1234 .self_target_valid true  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SpellCard" "Border SH 4" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard"  .is_stall_invalidating false 
+combat_skill: .id "permanent_border" .level 4  .atk 0% .dmg 0% .crit 0% .launch 43 .move 0 0 .target @~1234 .self_target_valid true  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SpellCard" "Border SH 5" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard"  .is_stall_invalidating false 
+
+combat_skill: .id "fantasy_seal" .level 0 .type "spellcard" .atk 100% .dmg -90% .crit 6.5%  .move 0 0 .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "FS Debuff1" "Miko Stun 1" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard" "Miko Chuuni Bullshit FS" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 1 .type "spellcard" .atk 110% .dmg -90% .crit 7.5%  .move 0 0 .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "FS Debuff2" "Miko Stun 2" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard" "Miko Chuuni Bullshit FS" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 2 .type "spellcard" .atk 115% .dmg -90% .crit 8.5%  .move 0 0 .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "FS Debuff3" "Miko Stun 3" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard" "Miko Chuuni Bullshit FS" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 3 .type "spellcard" .atk 120% .dmg -90% .crit 9.5%  .move 0 0 .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "FS Debuff4" "Miko Stun 4" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard" "Miko Chuuni Bullshit FS" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 4 .type "spellcard" .atk 125% .dmg -90% .crit 10.5% .move 0 0 .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "FS Debuff5" "Miko Stun 5" "Cooldown MK" "BULL SHIT. I HIT THE BUTTON, ZUN" "MK Fake Guard" "Miko Chuuni Bullshit FS" .is_stall_invalidating false 
+
+combat_skill: .id "fantasy_seal" .level 0 .type "spellcard" .atk 100% .dmg -90% .crit 6.5%  .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SHE NARROWED MY FIELD OF VIEW, RIGHT? THANK GOD I DIDN'T HAVE TO SEE HER TERRIBLE DANMAKU!" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 1 .type "spellcard" .atk 110% .dmg -90% .crit 7.5%  .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SHE NARROWED MY FIELD OF VIEW, RIGHT? THANK GOD I DIDN'T HAVE TO SEE HER TERRIBLE DANMAKU!" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 2 .type "spellcard" .atk 115% .dmg -90% .crit 8.5%  .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SHE NARROWED MY FIELD OF VIEW, RIGHT? THANK GOD I DIDN'T HAVE TO SEE HER TERRIBLE DANMAKU!" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 3 .type "spellcard" .atk 120% .dmg -90% .crit 9.5%  .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SHE NARROWED MY FIELD OF VIEW, RIGHT? THANK GOD I DIDN'T HAVE TO SEE HER TERRIBLE DANMAKU!" .is_stall_invalidating false 
+combat_skill: .id "fantasy_seal" .level 4 .type "spellcard" .atk 125% .dmg -90% .crit 10.5% .launch 21 .target ~1234 .self_target_valid false .is_crit_valid True  .refresh_after_each_wave true .valid_modes mk_rule_mode .effect "SHE NARROWED MY FIELD OF VIEW, RIGHT? THANK GOD I DIDN'T HAVE TO SEE HER TERRIBLE DANMAKU!" .is_stall_invalidating false 
+
+combat_move_skill: .id "move" .type "move" .level 0 .move 2 2 .launch 4321 .is_stall_invalidating false
+
+tag: .id "light"
+tag: .id "religious"
+tag: .id "outsiders_bonfire"
+tag: .id "touhou"
+
+mode: .id mk_rule_mode .is_raid_default true
+
+hp_reaction: .hp_ratio 1.00 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.99 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.98 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.97 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.96 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.95 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.94 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.93 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.92 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.91 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.9  .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.89 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.88 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.87 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.86 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.85 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.84 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.83 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.82 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.81 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.8  .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.79 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.78 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.77 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.76 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.75 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.74 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.73 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.72 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.71 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.7  .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.69 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.68 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.67 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.66 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.65 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.64 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.63 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.62 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.61 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.6  .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.59 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.58 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.57 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.56 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.55 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.54 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.53 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.52 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.51 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.5  .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.49 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.48 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.47 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.46 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.45 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.44 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.43 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.42 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.41 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.4  .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.39 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.38 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.37 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.36 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.35 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.34 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.33 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.32 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.31 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.3  .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.29 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.28 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.27 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.26 .is_under true .effects "Miko Was Hit Rhythm Break" 
+hp_reaction: .hp_ratio 0.25 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.24 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.23 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.22 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.21 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.2  .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.19 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.18 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.17 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.16 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.15 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.14 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.13 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.12 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.11 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.1  .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.09 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.08 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.07 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.06 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.05 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.04 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.03 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.02 .is_under true .effects "Miko Was Hit Rhythm Break"
+hp_reaction: .hp_ratio 0.01 .is_under true .effects "Miko Was Hit Rhythm Break"
+
+
+
+
+overstressed_modifier: .override_trait_type_ids crimson .override_trait_type_chances 1.0
+
+activity_modifier: .override_valid_activity_ids prayer treatment disease_treatment .override_stress_removal_amount_low 100 .override_stress_removal_amount_high 100
+
+quirk_modifier: .incompatible_class_ids desecrater alcoholism gambler love_interest enlightened god_fearing resolution known_cheat deviant_tastes flagellant unquiet_mind witness faithless bad_gambler skilled_gambler improved_balance meditator calm nymphomania mercurial irrepressible
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+
+
+
+controlled: .target_rank 2
+
+id_index: .index 1998
+
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

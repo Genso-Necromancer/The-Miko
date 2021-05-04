@@ -1,0 +1,20 @@
+
+miko.sprite.hitspark_target.png
+size: 208,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+miko inner spark
+  rotate: false
+  xy: 144, 83
+  size: 62, 59
+  orig: 62, 59
+  offset: 0, 0
+  index: -1
+miko outter spark
+  rotate: false
+  xy: 2, 2
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1

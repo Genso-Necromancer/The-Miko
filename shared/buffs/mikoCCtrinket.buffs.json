@@ -1,0 +1,302 @@
+{
+   "buffs":
+   [
+      
+	  {
+         "id" : "miko_yin_EX_SH_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_EX_SH_tt",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_cc_set_Crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         }
+      },
+	   {
+         "id" : "miko_cc_set_dmgH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         }
+      },
+	   {
+         "id" : "miko_cc_set_dmgL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_set_DRbuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_set_selfhit_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_set_selfhit_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_set_dmg_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_set_dmg_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_set_stunbuff",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_set_dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_yang_stunres_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_yang_debuffchance",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_yang_stress_skills",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_yin_CP_25",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_yin_CP_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_yin_CP_75",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_yin_DC_25",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "miko_yin_DC_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "miko_yin_DC_75",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+      {
+         "id" : "miko_yang_on_miss",
+         "stat_type" : "stress_on_miss",
+         "stat_sub_type" : "STRESS_AMOUNT",
+         "amount" : 10,
+		 "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_yin_effect_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_yin_effect_tt",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_yin_effect_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_yin_effect_tt",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_yin_effect_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_yin_effect_tt",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   
+   ]
+}  

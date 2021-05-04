@@ -1,0 +1,3 @@
+inventory_item: .type "supply"		.id "miko_bomb"			    .base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0
+inventory_item: .type "supply"		.id "miko_bomb_camp"		.base_stack_limit 1		.purchase_gold_value 0	.sell_gold_value 0 .sequential_use_effects mk_camp_0 mk_camp_1 mk_camp_3 .wait_for_item_use_to_finish true
+

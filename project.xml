@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/ReimuModWIP/</ModDataPath>
+	<Title>(non-steam)Reimu - New Class Mod</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>dont_submit</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>New Class</Tags>
+		<Tags>Miko</Tags>
+		<Tags>Touhou</Tags>
+		<Tags>Reimu Hakurei</tags>
+	</Tags>
+	<ItemDescription>The Miko Class Mod by Ed &quot;I love my wife very much.&quot; Boon.
+	
+	[i]Girls are stressing out....[/i]
+The Maid, a Touhou inspired class, is an aggressive dancer who manipulates the action economy to land devastating AoEs and critical hits. She brings with her a fast, resource based play style and tricky mechanics
+
+
+[h1]Summary[/h1]
+[b]The Maid features[/b]
+the class itself
+trinkets
+original animations, art, SFXs and FX
+color palettes
+575 Unique Barks
+support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1689234891]Sunward Isles[/url] &amp; Dem&apos;s [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1779509342]Pets[/url]
+[url=https://steamcommunity.com/profiles/76561198316873653]SCH Localization by ad_kege[/url]
+[url=https://steamcommunity.com/id/taburetosexual/]RU Localization by Tablichka[/url]
+JP tool tip translation
+
+[h1]Abilities[/h1]
+
+[b]The World[/b]
+[img]https://i.imgur.com/y7GIo2V.png[/img]
+[b]⚫ ⚫ ⚫ ⚫ |[/b]
+The Core Skill of the Maid. [b]🕑 Warps time[/b], granting her 1 additional action, as well as improving the next skill used that turn. At the cost of accumulating stress.
+
+[b]Eternal Meek[/b]
+[img]https://i.imgur.com/eqJN38j.png[/img]
+[b]⚪ ⚫ ⚫ ⚫  | ⚫–⚫–⚫ ⚪ [/b]
+[b]⇐ 1[/b]
+One of two wide AoEs. The Maid fans her knives on the front ranks and accelerates time around herself, gaining speed with each use.
+[b]🕑 Time Warp:[/b]
+[b]⇐ 2[/b]
+
+[b]Indiscriminate[/b]
+[img]https://i.imgur.com/q252HHx.png[/img]
+[b]⚫ ⚫ ⚫ ⚪ | ⚪ ⚫–⚫–⚫[/b]
+[b]⇒ 1[/b]
+Second of her wide AoEs. The Maid rains knives upon the troublesome back ranks and slows the flow of time around them, reducing their speed.
+[b]🕑 Time Warp:[/b]
+Leaves her victims vulnerable to follow up attacks
+
+[b]Misdirection[/b]
+[img]https://i.imgur.com/eCOJwhz.png[/img]
+[b]⚫ ⚫ ⚫ ⚫ |[/b]
+The Maid stalls time briefly and diverts attention to another member of the party, relieving some stress and possibly switching places with the target.
+[b]🕑 Time Warp:[/b]
+Forces the target to guard her.
+
+[b]Killer Doll[/b]
+[img]https://i.imgur.com/Ggctj5S.png[/img]
+[b]⚫ ⚫ ⚫ ⚪ | ⚫ ⚫ ⚫ ⚪ [/b]
+[b]⇒ 1[/b]
+The Maid diverts all of her knives upon a single target, enhancing her damage and chance to critically hit. Able to inflict greater damage to those with more places to stick her knives.
+[b]🕑 Time Warp:[/b]
+While using this technique twice is exhausting, the target becomes overwhelmed and stumbles randomly after the attack
+
+[b]Ludo Bile[/b]
+[img]https://i.imgur.com/GpCt7Gn.png[/img]
+[b]⚫ ⚫ ⚫ ⚫ | ⚪ ⚪ ⚫–⚫[/b]
+A disorienting and toxic attack, The Maid hits her target&apos;s senses, reducing their accuracy and shuffling them among the ranks
+[b]🕑 Time Warp:[/b]
+The potency is enhanced, able to stun the targets as well.
+
+[b]Soul Sculpture[/b]
+[img]https://i.imgur.com/zWL77IL.png[/img]
+[b]⚫ ⚫ ⚫ ⚪ | ⚫–⚫ ⚪ ⚪[/b]
+[b]⇒ 1[/b]
+The Maid assaults the front ranks, striking where they&apos;re weak to subvert their protection and with increased chance to critical hit
+[b]🕑 Time Warp:[/b]
+The target is left vulnerable to her, increasing the critical strike of her next action per hit scored
+
+[h1]Camping Skills[/h1]
+In addition to the 3 basic camping skills, she has the following
+
+[b]Tea Time[/b]
+[img]https://i.imgur.com/hqxJGcl.png[/img]
+[b]Time Cost: 2
+Target: All Companions[/b]
+-20% Stress(4 Battles)
+
+[b]Time Leap[/b]
+[img]https://i.imgur.com/VuQGygo.png[/img]
+[b]Time Cost: 1
+Target: Self[/b]
++4 SPD on First Round(4 Battles)
++10 ACC on First Round(4 Battles)
+
+[b]Warding Incense[/b]
+[img]https://i.imgur.com/AXCuNZq.png[/img]
+[b]Time Cost: 2
+Target: Party[/b]
++20% Debuff Resist(4 Battles)
++20% Disease Resist(4 Battles)
++20% Bleed Resist(4 Battles)
+
+[b]Danmaku Practice[/b]
+[img]https://i.imgur.com/ZBqqz3g.png[/img]
+[b]Time Cost: 3
+Target: Self and 1 Companion[/b]
+Self: +10 DODGE(4 Battles)
+Companion: +10% CRIT(4 Battles)
+
+[h1]Trinkets[/h1]
+[img]https://i.imgur.com/uQ9vY3w.jpg[/img]
+5 Base game Trinkets
+1 CoM Trinket
+2 CC Trinkets
+
+Mod Support for Sunward Isles &amp; Pets. Which require the respective mods installed for them to appear. I hope these trinkets coax you into giving them both a try.
+-1 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1689234891]Sunward Isles[/url] Trinket
+[img]https://i.imgur.com/7bx9rSr.jpg[/img] [img]https://i.imgur.com/zpH10Rj.jpg[/img]
+
+
+-2 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1779509342]Pet[/url] Trinkets
+[img]https://i.imgur.com/ZEoegaB.jpg[/img] [img]https://i.imgur.com/dPSZlmc.jpg[/img]
+[img]https://i.imgur.com/STqdhd2.png[/img]
+To clarify, the pet will increase the rate of craving with the crimson curse, while using both will still have increased curse craving. Just not as much.
+In addition, equipping Flandre will have her follow The Maid around!
+
+[h1]Possibly Asked Questions[/h1]
+[quote][i]&quot;I do not have (CC/SI/etc) installed, will this mod still work?&quot;[/i][/quote]
+Yes it&apos;s compatible with these, but does not require them.
+
+[quote][i]&quot;I used The World and I did not get my extra action, why?&quot;[/i][/quote]
+With all the hours I spent testing the mod and slapping the living shit out of The World button, I&apos;ve done what I could to fix this before release. If this still occurs somehow for you, please let me know with as much information about it&apos;s occurance as you can. Sadly as I cannot change the game&apos;s engine itself, I may not be able to completely fix it.
+
+[quote][i]&quot;Are you making other Touhou Class mods?&quot;[/i][/quote]
+Yes I am! Please join my discord, [url=https://discord.gg/PhwGZnu]The Gensokyo Crypt[/url], to follow development of my next class mod, argue who is best girl; give any feed back/bug reports.
+
+[quote][i]&quot;Will this class mod change dodge to graze?&quot;[/i][/quote]
+Nope, that isn&apos;t included in the mod incase anyone didn&apos;t want a base string changed. If you do want it changed to graze, I&apos;ve uploaded it seperately. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2207613053]Here[/url]
+
+[quote][i]&quot;Is this an anime mod?&quot;[/i][/quote]
+Touhou is a videogame.
+
+[quote][i]&quot;There are no problems.&quot;[/i][/quote]
+Then please enjoy.
+
+[h1]Other Mods[/h1]
+Join [url=https://discord.gg/PhwGZnu]The Gensokyo Crypt[/url] to follow the development of my upcoming mods
+
+[img]https://i.imgur.com/Pb4jSWY.jpg[/img][img]https://i.imgur.com/eqeMrDQ.jpg[/img][img]https://i.imgur.com/UEAEG3m.gif[/img]
+
+[h1]Credits[/h1]
+💜-[url=https://steamcommunity.com/id/peckonthecheekles/]Kaitlyn[/url]: Character Art, Sprites and Animations
+💀-[url=https://steamcommunity.com/id/Mr_19/]The Necromancer[/url]: Trinket/Icon/FXs, SFX, Code, Writing; Waifu Research
+🍺-[url=https://store.steampowered.com/search/?developer=%E4%B8%8A%E6%B5%B7%E3%82%A2%E3%83%AA%E3%82%B9%E5%B9%BB%E6%A8%82%E5%9B%A3]Zun-Team Shanghai Alice[/url]: Absolute legend. Creator of the character and it&apos;s source material
+✞-[url=https://www.pixiv.net/en/users/27452]Akira Banpai[/url]: Artist whose Sakuya design was used as reference for this mod
+
+[h1]Thanks[/h1]
+I want to thank those who joined MLD&apos;s test channel and reported bugs, gave feed back and supported the Maid&apos;s development
+Ever appreciative to Katt for proofreading my barks
+Thank you Yasahana, my sherpa through languages I do not understand
+Thanks to [url=https://steamcommunity.com/id/Lunagamer128/]Woona[/url] for helping with the discord and tolerating my ranting. Please check out her mod &quot;The Runaway&quot; when it comes out! Or early over at the [url=https://discord.gg/VkXB87M]MLD[/url] discord.
+[url=https://steamcommunity.com/profiles/76561198047713904]anaertailin[/url] as well whose GR skin made me realize DD needs more touhou mods
+And everyone who downloads this mod
+
+
+[h1]Legal[/h1]
+Tis not an official Red Hook Studios product or product modification, and Red Hook Studios Inc. is not responsible in any way for changes or damages that may result from using the mod. Furthermore, “Darkest Dungeon” and the Darkest Dungeon logo are trademarks of Red Hook Studios</ItemDescription>
+</project>
+

@@ -1,0 +1,118 @@
+
+miko.sprite.prayer_target.png
+size: 1158,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cracked_Destun_DiamondL
+  rotate: true
+  xy: 1072, 254
+  size: 15, 21
+  orig: 15, 21
+  offset: 0, 0
+  index: -1
+Cracked_Destun_DiamondR
+  rotate: false
+  xy: 1022, 271
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+Cracked_Destun_halo_shardL01
+  rotate: true
+  xy: 1022, 354
+  size: 30, 93
+  orig: 30, 93
+  offset: 0, 0
+  index: -1
+Cracked_Destun_halo_shardL02
+  rotate: false
+  xy: 1064, 319
+  size: 37, 33
+  orig: 37, 33
+  offset: 0, 0
+  index: -1
+Cracked_Destun_halo_shardR01
+  rotate: false
+  xy: 1117, 291
+  size: 30, 93
+  orig: 30, 93
+  offset: 0, 0
+  index: -1
+Cracked_Destun_halo_shardR02
+  rotate: false
+  xy: 1022, 315
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+Cracked_Destun_shard01
+  rotate: true
+  xy: 1048, 271
+  size: 17, 27
+  orig: 17, 27
+  offset: 0, 0
+  index: -1
+Cracked_Destun_shard02
+  rotate: true
+  xy: 1109, 271
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+Cracked_Destun_shard03
+  rotate: true
+  xy: 1022, 253
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+Destun_diamond
+  rotate: true
+  xy: 1064, 290
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+Destun_halo
+  rotate: false
+  xy: 1022, 386
+  size: 132, 124
+  orig: 132, 124
+  offset: 0, 0
+  index: -1
+destun_shard01
+  rotate: true
+  xy: 1077, 271
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+destun_shard02
+  rotate: false
+  xy: 1138, 262
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+destun_shard03
+  rotate: true
+  xy: 1047, 253
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+prayer glow
+  rotate: true
+  xy: 577, 2
+  size: 508, 443
+  orig: 508, 443
+  offset: 0, 0
+  index: -1
+prayer sparkle
+  rotate: true
+  xy: 2, 2
+  size: 508, 573
+  orig: 508, 573
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,85 @@
+{
+   "buffs":
+   [
+
+	   {
+         "id" : "Youkai_Killer_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "youkai_killer_tt1",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "Youkai_Killer_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "youkai_killer_tt2",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "Youkai_Killer_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "youkai_killer_tt3",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "Youkai_Killer_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "youkai_killer_tt4",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "Youkai_Killer_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "youkai_killer_tt5",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		},
+	   {
+         "id" : "Miko_ESC_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_esc_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	   
+   ]
+}  

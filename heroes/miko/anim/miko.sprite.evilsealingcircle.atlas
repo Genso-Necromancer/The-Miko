@@ -1,0 +1,20 @@
+
+miko.sprite.evilsealingcircle.png
+size: 1262,1312
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+reimuposes
+  rotate: false
+  xy: 2, 2
+  size: 1194, 1308
+  orig: 1194, 1308
+  offset: 0, 0
+  index: -1
+sakuya_combat_shadow
+  rotate: true
+  xy: 1198, 953
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

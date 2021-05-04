@@ -1,0 +1,71 @@
+Homing Amulet:
+Now targets ~1234
+Can't be riposte
+Damage lowers with each additional target above 1
+Crit scales -8% to -3%
+
+Extermination:
+Now launches 321 and Targets 123
+Loses 10% Damage per Rank between her and her target
+Examples
+Miko in rank 1, targeting rank 1 has no penalty
+Rank 1 targeting Rank 2 has -10%
+Rank 2 targeting Rank 2 has -20%
+
+Yin&Yang:
+Scales it's stats from 0 stress to 175 stress, shifting the weight of the stats it grants depending where you are along the stress scale.
+Set effect now grants the old "Unafflicted: Stress on Miss, Afflicted: Stress Heal on Hit."
+
+Merciless Gohei:
+Now gives +DMG and -Dodge based on Rank 2 and 1, increasing for Rank 1.
+
+Depreciated Spellcard:
+Removed
+
+Dispelling Prayer:
+Increased amount of stress heal
+
+Persuasion  Needle:
+No longer stuns, now instead inflicts a debuff which disables stress skills
+
+Kuchiyose Trance:
+Now does the following
+3 Points
+Self:
++40 Stress, 0 stress if afflicted
++3 SPD
++10 ACC
+Remove Mortality Debuff
+
+Harae Ceremony:
+Brought closer to the power level of similar vanilla skills.
+4 points
+Prevents night ambush
+Companions: -15 Stress
+
+Cautionary Border:
+Stress Heal reduced
+
+Stats:
+Base damage increased, scaling 6-12 7-14 8-16 10-20 11-22
+
+Affliction:
+More focused on reactions and start of turn act-outs. All act-outs which take away control for her turn has been removed.
+
+Shion's Curse:
+Removed a bunch of effect bloat
+
+Rod of Remorse:
+Now Rare, instead of Very Rare
+
+Extras:
+Added some party names
+
+and many more changes I lost track of during the long overhaul.
+
+
+
+
+SEED: TSXXGHNOHT
+
+332876074

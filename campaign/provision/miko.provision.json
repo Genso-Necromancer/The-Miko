@@ -1,0 +1,15 @@
+{
+    
+    
+    "raid_starting_hero_class_item_lists":
+    [
+        {
+            "hero_class": "miko",
+            "item_lists": 
+            [
+                { "type": "supply", "id": "miko_bomb", "amount": 1 }
+            ]
+        }              
+    ]   
+
+}

@@ -1,0 +1,34 @@
+
+miko.sprite.mkexterm_target.png
+size: 1302,331
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ZapOrbStep3A
+  rotate: false
+  xy: 2, 2
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStep3B
+  rotate: false
+  xy: 327, 2
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStep4A
+  rotate: false
+  xy: 652, 2
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1
+ZapOrbStep4B
+  rotate: false
+  xy: 977, 2
+  size: 323, 327
+  orig: 323, 327
+  offset: 0, 0
+  index: -1

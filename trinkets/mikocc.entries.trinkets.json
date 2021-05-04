@@ -1,0 +1,54 @@
+{
+   "entries":
+   [
+      {
+         "id" : "cc_set_miko_yang",
+         "buffs" : 
+         [	
+			"miko_yang_stunres_buff",
+			"miko_yang_debuffchance",
+			"miko_yang_stress_skills",
+			"miko_yang_on_miss"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "set_id" : "cc_miko",
+         "rarity" : "sakura",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+		 
+      },
+      {
+         "id" : "cc_set_miko_yin",
+         "buffs" : 
+         [
+			
+			"miko_yin_DC_25",
+			"miko_yin_DC_50",
+			"miko_yin_DC_75"
+		
+		  
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "set_id" : "cc_miko",
+         "rarity" : "sakura",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "was_hit_additional_effects":
+         [
+			 "Miko Hit Stress Trinket"
+         ]
+		
+		
+		 
+      }
+   ]
+}

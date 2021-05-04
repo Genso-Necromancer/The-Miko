@@ -1,0 +1,13 @@
+
+miko.sprite.homing_target_fx.png
+size: 56,129
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ofuda Projectile
+  rotate: false
+  xy: 2, 2
+  size: 52, 125
+  orig: 52, 125
+  offset: 0, 0
+  index: -1

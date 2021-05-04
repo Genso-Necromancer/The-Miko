@@ -1,0 +1,1179 @@
+{
+   "buffs":
+   [
+      
+	  {
+         "id" : "miko_prayer_target_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_p_target_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_is_bomb_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_is_bomb_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_HA_Riposte_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_HA_Riposte_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_DebuffS_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_FS_DebuffS_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_DebuffS_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_FS_DebuffL_tt",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "miko_camp_danmaku_buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+		{
+         "id" : "miko_stress_resistance",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_CB_prot_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_CB_prot_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.06,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_CB_prot_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.07,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_CB_prot_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.08,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_CB_prot_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.10,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_crit_dodge_buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_self_stress_control",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "miko_self_stress_heal_control",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "effect",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_heart_attack_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_heart_attack",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_HA_move_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_ha_move_tt",
+         "amount" : 0.18,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Short_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.3,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Short_debuff1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.30,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Short_debuff2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.35,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Short_debuff3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.4,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Short_debuff4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.5,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Short_debuff5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.6,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Long_debuff1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.1,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Long_debuff2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.15,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Long_debuff3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.2,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Long_debuff4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.25,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_Long_debuff5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.3,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_camp_SR_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_camp_acc_buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_camp_crit_buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.7,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_stress_sealing_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_stress_sealing_tt",
+         "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_stress_sealing_TT_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_stress_sealing_tt",
+         "amount" : -1.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_stress_sealing_TT_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_stress_sealing_tt",
+         "amount" : -1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_stress_sealing_TT_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_stress_sealing_tt",
+         "amount" : -1.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_stress_sealing_TT_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_stress_sealing_tt",
+         "amount" : -1.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_heal_sealing_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_heal_sealing_tt",
+         "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_heal_sealing_TT_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_heal_sealing_tt",
+         "amount" : -1.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_heal_sealing_TT_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_heal_sealing_tt",
+         "amount" : -1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_heal_sealing_TT_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_heal_sealing_tt",
+         "amount" : -1.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_heal_sealing_TT_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_heal_sealing_tt",
+         "amount" : -1.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	 },
+	  {
+         "id" : "miko_HA_DMG_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_ha_dmg_tt",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fs_tt1",
+         "amount" : -1.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fs_tt2",
+         "amount" : -1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fs_tt3",
+         "amount" : -1.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fs_tt4",
+         "amount" : -1.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fs_tt5",
+         "amount" : -1.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FS_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fsyk_tt",
+         "amount" : -1.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FSYK_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fsyk_tt",
+         "amount" : -1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FSYK_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fsyk_tt",
+         "amount" : -1.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FSYK_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fsyk_tt",
+         "amount" : -1.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_FSYK_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_fsyk_tt",
+         "amount" : -1.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_EX_SH_TT1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_EX_SH_tt",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_EX_SH_TT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_EX_SH_tt",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_EX_SH_TT3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_EX_SH_tt",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_EX_SH_TT4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_EX_SH_tt",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_EX_SH_TT5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_EX_SH_tt",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_Rhythm_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_rhythm_tt",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_FS_stunbuff1",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_stunbuff2",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_stunbuff3",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_stunbuff4",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_stunbuff5",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_Debuffbuff1",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_Debuffbuff2",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_Debuffbuff3",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_Debuffbuff4",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_FS_Debuffbuff5",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spectral"
+         }
+      },
+	   {
+         "id" : "miko_Mark_AP",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	   {
+         "id" : "miko_comment_buff",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 1,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+	  {
+         "id" : "Miko_sealing_STRESS_1",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+	  {
+         "id" : "Miko_sealing_STRESS_2",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+	  {
+         "id" : "Miko_sealing_STRESS_3",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+	  {
+         "id" : "Miko_sealing_STRESS_4",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+	  {
+         "id" : "Miko_sealing_STRESS_5",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_rhythm_crt",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_rhythm_spd",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_HA_Stun_Debuff_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_HA_Stun_Debuff_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_HA_Stun_Debuff_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_HA_Stun_Debuff_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_HA_Stun_Debuff_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_stun_res_buff_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.1,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_stun_res_buff_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.125,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_stun_res_buff_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.15,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_stun_res_buff_4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.175,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_stun_res_buff_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.2,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   
+   ]
+}  

@@ -1,0 +1,1857 @@
+{
+   "buffs":
+   [
+      
+	 
+	  {
+         "id" : "miko_HA_dmg_scalingMANH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "man"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingMANL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "man"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingMANH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "man"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingMANL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "man"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingMANH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "man"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingMANL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "man"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingFALLENH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "fallen"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingFALLENL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "fallen"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingFALLENH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "fallen"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingFALLENL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "fallen"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingFALLENH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "fallen"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingFALLENL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "fallen"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingunholyH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "unholy"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingunholyL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "unholy"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingunholyH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "unholy"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingunholyL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "unholy"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingunholyH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "unholy"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingunholyL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "unholy"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbeastH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "beast"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbeastL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "beast"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbeastH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "beast"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbeastL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "beast"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbeastH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "beast"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbeastL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "beast"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingeldritchH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "eldritch"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingeldritchL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "eldritch"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingeldritchH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "eldritch"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingeldritchL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "eldritch"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingeldritchH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "eldritch"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingeldritchL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "eldritch"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvampireH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "vampire"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvampireL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "vampire"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvampireH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "vampire"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvampireL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "vampire"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvampireH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "vampire"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvampireL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "vampire"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcorpseH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "corpse"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcorpseL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "corpse"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcorpseH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "corpse"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcorpseL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "corpse"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcorpseH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "corpse"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcorpseL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "corpse"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspectralH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "spectral"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspectralL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "spectral"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspectralH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "spectral"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspectralL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "spectral"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspectralH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "spectral"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspectralL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "spectral"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcarpentryH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "carpentry"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcarpentryL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "carpentry"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcarpentryH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "carpentry"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcarpentryL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "carpentry"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcarpentryH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "carpentry"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcarpentryL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "carpentry"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingstoneworkH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "stonework"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingstoneworkL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "stonework"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingstoneworkH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "stonework"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingstoneworkL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "stonework"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingstoneworkH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "stonework"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingstoneworkL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "stonework"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingpyreH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "pyre"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingpyreL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "pyre"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingpyreH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "pyre"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingpyreL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "pyre"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingpyreH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "pyre"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingpyreL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "pyre"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbodyH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "body"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbodyL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "body"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbodyH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "body"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbodyL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "body"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbodyH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "body"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingbodyL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "body"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcauldronH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "cauldron"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcauldronL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "cauldron"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcauldronH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "cauldron"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcauldronL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "cauldron"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcauldronH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "cauldron"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingcauldronL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "cauldron"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwendigoH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "wendigo"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwendigoL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "wendigo"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwendigoH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "wendigo"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwendigoL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "wendigo"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwendigoH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "wendigo"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwendigoL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "wendigo"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingtribalH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "tribal"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingtribalL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "tribal"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingtribalH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "tribal"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingtribalL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "tribal"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingtribalH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "tribal"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingtribalL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "tribal"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspiderH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "spider"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspiderL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "spider"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspiderH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "spider"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspiderL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "spider"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspiderH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "spider"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingspiderL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "spider"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingkcc_mobsH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "kcc_mobs"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingkcc_mobsL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "kcc_mobs"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingkcc_mobsH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "kcc_mobs"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingkcc_mobsL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "kcc_mobs"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingkcc_mobsH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "kcc_mobs"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingkcc_mobsL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "kcc_mobs"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalinghuskH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "husk"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalinghuskL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "husk"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalinghuskH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "husk"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalinghuskL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "husk"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalinghuskH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "husk"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalinghuskL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "husk"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingnightmareH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "nightmare"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingnightmareL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "nightmare"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingnightmareH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "nightmare"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingnightmareL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "nightmare"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingnightmareH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "nightmare"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingnightmareL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "nightmare"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvengefulsoulH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "vengefulsoul"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvengefulsoulL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "vengefulsoul"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvengefulsoulH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "vengefulsoul"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvengefulsoulL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "vengefulsoul"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvengefulsoulH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "vengefulsoul"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvengefulsoulL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "vengefulsoul"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwoodH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "wood"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwoodL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "wood"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwoodH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "wood"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwoodL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "wood"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwoodH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "wood"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingwoodL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "wood"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvegetationH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "vegetation"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvegetationL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "vegetation"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvegetationH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "vegetation"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvegetationL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "vegetation"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvegetationH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "vegetation"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "miko_HA_dmg_scalingvegetationL_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 4,
+            "string" : "vegetation"
+         },
+		 "has_description": false
+      }
+
+   
+   ]
+}  

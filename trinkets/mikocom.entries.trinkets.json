@@ -1,0 +1,30 @@
+{
+   "entries":
+   [
+      {
+         "id" : "com_miko_gap",
+         "buffs" : 
+         [
+			"miko_gap_HP",
+			"miko_gap_SPD",
+			"miko_gap_marked",
+			"miko_gap_TT"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "rarity" : "comet",
+         "shard" : 98,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+		 [
+			"Warp Gap Shuffle",
+			"Warp Stun"
+		 ]
+		
+      }
+   ]
+}

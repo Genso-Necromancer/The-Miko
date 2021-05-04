@@ -1,0 +1,34 @@
+
+miko.sprite.needle_target_fx.png
+size: 1483,189
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+needle_embedded
+  rotate: false
+  xy: 826, 40
+  size: 324, 97
+  orig: 324, 97
+  offset: 0, 0
+  index: -1
+needle_fx
+  rotate: false
+  xy: 826, 139
+  size: 487, 48
+  orig: 487, 48
+  offset: 0, 0
+  index: -1
+needle_trail
+  rotate: false
+  xy: 2, 2
+  size: 822, 185
+  orig: 822, 185
+  offset: 0, 0
+  index: -1
+stressout
+  rotate: true
+  xy: 1315, 22
+  size: 165, 166
+  orig: 165, 166
+  offset: 0, 0
+  index: -1

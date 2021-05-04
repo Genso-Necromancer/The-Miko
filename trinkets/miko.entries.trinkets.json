@@ -1,0 +1,135 @@
+{
+   "entries":
+   [
+     {
+         "id" : "miko_omamori",
+         "buffs" : 
+         [
+            "miko_OM_PROT",
+			"miko_OM_CRITPROT"
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "miko_cup",
+         "buffs" : 
+         [
+            "miko_cup_dmgH",
+			"miko_cup_dmgL",
+			"miko_cup_stresres",
+			"miko_cup_SPDdebuff"
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "miko_donation",
+         "buffs" : 
+         [
+            "miko_donation_poverty",
+			"miko_crimson_clear",
+			"miko_heart_attack_TT",
+			"miko_Donation_SD_Buff",
+			"miko_donation_stress_res",
+			"miko_donation_stress_gain"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "miko_shinsatsu",
+         "buffs" : 
+         [
+		  
+		  "miko_remorse_stress_skills",
+		  "miko_shinsatsu_dmgH",
+		  "miko_shinsatsu_dmgL",
+		  "miko_remorse_stress",
+		  "miko_remorse_heal_block",
+		  "miko_heal_1_remove",
+		  "miko_remorse_heal_TT",
+		   "miko_remorse_aff_TT"
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : "crypts",
+		 "friendly_skill_additional_effects":
+         [
+			 "Faith Check",
+			 "Gather Faith"
+         ]
+      },
+	  {
+         "id" : "miko_occultorb",
+         "buffs" : 
+         [
+		  "miko_occult_eldritchH",
+		  "miko_occult_eldritchL",
+		  "miko_occult_yokaiH",
+		  "miko_occult_yokaiL",
+		  "miko_occult_stress"
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "cove"
+      },
+	  {
+         "id" : "si_miko_merciless",
+         "buffs" : 
+         [
+			"miko_fear_disable",
+			"miko_merciless_dmgHR1",
+			"miko_merciless_dmgLR1",
+			"miko_merciless_dmgHR2",
+			"miko_merciless_dmgLR2",
+			"miko_merciless_dodge_debuffR1",
+			"miko_merciless_dodge_debuffR2",
+			"miko_merciless_TT"
+         ],
+         "hero_class_requirements":
+         [
+            "miko"
+         ],
+         "rarity" : "crimson_court",
+         "price" : 30000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "melee_attack_skill_additional_effects":
+         [
+			"melee_attack_skill_additional_effects"
+			
+         ]
+      }
+		
+   ]
+}

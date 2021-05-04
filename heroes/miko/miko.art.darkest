@@ -1,0 +1,25 @@
+commonfx: .deathfx death_touhou
+
+weapon: .name "miko_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "miko_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "miko_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "miko_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "miko_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "miko_armour_0" .icon "eqp_armour_0.png"
+armour: .name "miko_armour_1" .icon "eqp_armour_1.png"
+armour: .name "miko_armour_2" .icon "eqp_armour_2.png"
+armour: .name "miko_armour_3" .icon "eqp_armour_3.png"
+armour: .name "miko_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "extermination" .icon "one" .anim "exterminate" .fx "ext_perf_fx" .targchestfx "mkexterm_target" .condensed_tooltip_stats false .condensed_tooltip_effects false
+combat_skill: .id "persuasion_needle" .icon "two" .anim "persuasion_needle" .fx "needle_perf_fx" .targchestfx "needle_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "homing_amulet" .icon "four" .anim "homingamulet" .fx "HAFX" .targchestfx "homing_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "evil_sealing_circle" .icon "three" .anim "evilsealingcircle" .fx "" .targfx "circle_target" .can_display_performer_selection_after_turn false .condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "disaster_dispelling_prayer" .icon "five" .anim "disasterdispellingprayer" .fx "mk_prayer_perf_fx" .targheadfx "prayer_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "permanent_border" .icon "six" .anim "disasterdispellingprayer" .fx "spellcard_fx" .targfx "barrier_target" .can_display_performer_selection_after_turn false .condensed_tooltip_stats true .condensed_tooltip_effects true
+combat_skill: .id "fantasy_seal" .icon "seven" .anim "fantasyseal" .fx "spellcard_fx" .targfx "FS_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false .area_pos_offset 150 0 .target_area_pos_offset -125 0
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+
+act_out_display: .attack_friendly_anim "exterminate" .attack_friendly_fx "ext_perf_fx" .attack_friendly_targchestfx "mkexterm_target" .attack_friendly_sfx "/char/ally/miko_extermination"

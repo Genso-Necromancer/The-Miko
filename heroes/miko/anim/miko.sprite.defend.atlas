@@ -1,0 +1,20 @@
+
+miko.sprite.defend.png
+size: 796,659
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defend
+  rotate: true
+  xy: 2, 2
+  size: 655, 728
+  orig: 655, 728
+  offset: 0, 0
+  index: -1
+sakuya_combat_shadow
+  rotate: true
+  xy: 732, 300
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

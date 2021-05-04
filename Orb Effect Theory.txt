@@ -1,0 +1,42 @@
+Trinket 1
+On-Hit: Melee:
+Switch Mode to "Orb" : Not Qeued
+
+
+Trinket 2
+On-Hit: Melee:
+Debuff Reimu's "CSA:DMG:Not In Mode'orb':remove if false:1rd:Unspecific" : Qeued First
+Reimu Effect DMG, Apply "FX" Buff, Rule Type: In Mode "Orb", Remove if False : Qeued Second
+Reimu Hitself DMG & Apply "FX" Buff, Rule Type: In Mode "Orb", Remove if False : Qeued Third
+Switch to Mode "NoOrb" : Qeued Last
+
+
+Add an end fight "Use move" and add "switch to 'Normal'" to Move.
+
+
+
+
+Simplified test version
+
+
+Trinket 1
+On-Hit: Melee:
+Buff Reimu's "CSA:DMG:ALWAYS:1rd:Unspecific" : Not Qeued
+
+
+Trinket 2
+On-Hit: Melee:
+Debuff Reimu's "CSA:DMG:ALWAYS:1rd:Unspecific" : Qeued First
+Reimu Effect DMG : Qeued Second
+Reimu Hitself DMG : Qeued Third
+
+
+
+
+
+Damage increases as targets decrease
+
+4 target AoE
+
+Swap source and target: Debuff DMGH&L -10%
+

@@ -1,0 +1,13 @@
+
+miko.sprite.mk_prayer_prf_fx.png
+size: 477,897
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ReimBlackout
+  rotate: false
+  xy: 2, 2
+  size: 473, 893
+  orig: 473, 893
+  offset: 0, 0
+  index: -1

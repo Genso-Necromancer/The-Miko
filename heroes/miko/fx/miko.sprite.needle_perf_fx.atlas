@@ -1,0 +1,20 @@
+
+miko.sprite.needle_perf_fx.png
+size: 1124,922
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+persuasion_needle_fx
+  rotate: true
+  xy: 2, 2
+  size: 918, 952
+  orig: 918, 952
+  offset: 0, 0
+  index: -1
+persuasion_needle_woosh_fx
+  rotate: true
+  xy: 956, 667
+  size: 253, 166
+  orig: 253, 166
+  offset: 0, 0
+  index: -1

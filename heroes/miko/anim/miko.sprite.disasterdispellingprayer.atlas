@@ -1,0 +1,20 @@
+
+miko.sprite.disasterdispellingprayer.png
+size: 1308,956
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+reimuposes
+  rotate: true
+  xy: 2, 2
+  size: 952, 1240
+  orig: 952, 1240
+  offset: 0, 0
+  index: -1
+sakuya_combat_shadow
+  rotate: true
+  xy: 1244, 597
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

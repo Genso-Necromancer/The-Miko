@@ -1,0 +1,42 @@
+Miko Check list
+
+-Known Bugs-
+
+Random Crash-to-desktop with Yin-Yang Orb animation
+-Not 100% sure how to force it to happen
+-Only happens when first entering a dungeon
+-Crash occurs when Orb finishes Onset animation and would begin Idle animation
+-Happens less often than it not happening
+-Sometimes will crash in succession, 2 to 3 reloads, then is just fine after that and doesn't crash
+
+-Components- [No significant order]
+
+Performer FXs
+
+Bomb elixir/tinctur FX
+
+SFXs
+
+Character Sprites/Animations
+-7 Skills
+-Walk/Idle
+-Combat
+-Afflicted
+
+Equipment Icons
+
+CoM & SI trinkets(Pet?)
+-Art
+-CoM trinket stats
+
+
+Hamlet Flavor text
+
+Barks, Phase 2
+
+Events
+-Splash Image
+-Flavor Text
+-Voice Lines + Subtitles
+-What they do
+-possible Hamlet Sprite

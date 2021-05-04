@@ -1,0 +1,20 @@
+
+miko.sprite.exterminate.png
+size: 1804,1344
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+extermination
+  rotate: false
+  xy: 2, 2
+  size: 1736, 1340
+  orig: 1736, 1340
+  offset: 0, 0
+  index: -1
+sakuya_combat_shadow
+  rotate: true
+  xy: 1740, 985
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

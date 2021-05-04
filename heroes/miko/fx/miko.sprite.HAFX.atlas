@@ -1,0 +1,41 @@
+
+miko.sprite.HAFX.png
+size: 1177,1156
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+OfudaBlurL
+  rotate: true
+  xy: 868, 492
+  size: 320, 249
+  orig: 320, 249
+  offset: 0, 0
+  index: -1
+OfudaBlurR
+  rotate: false
+  xy: 868, 814
+  size: 266, 340
+  orig: 266, 340
+  offset: 0, 0
+  index: -1
+OfudaL
+  rotate: false
+  xy: 868, 2
+  size: 307, 195
+  orig: 307, 195
+  offset: 0, 0
+  index: -1
+OfudaR
+  rotate: false
+  xy: 868, 199
+  size: 268, 291
+  orig: 268, 291
+  offset: 0, 0
+  index: -1
+reimublur
+  rotate: false
+  xy: 2, 64
+  size: 864, 1090
+  orig: 864, 1090
+  offset: 0, 0
+  index: -1

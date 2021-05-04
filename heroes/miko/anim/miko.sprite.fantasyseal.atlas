@@ -1,0 +1,20 @@
+
+miko.sprite.fantasyseal.png
+size: 1164,946
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+reimuposes
+  rotate: true
+  xy: 2, 2
+  size: 942, 1096
+  orig: 942, 1096
+  offset: 0, 0
+  index: -1
+sakuya_combat_shadow
+  rotate: true
+  xy: 1100, 587
+  size: 357, 62
+  orig: 357, 62
+  offset: 0, 0
+  index: -1

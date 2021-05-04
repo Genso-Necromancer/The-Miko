@@ -1,0 +1,13 @@
+{
+   "sets":
+   [
+      {
+         "id" : "cc_miko",
+         "buffs" : 
+         [
+			"miko_set_stunbuff"
+			
+         ]
+      }
+   ]
+}

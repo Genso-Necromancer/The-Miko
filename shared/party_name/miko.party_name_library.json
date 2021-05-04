@@ -1,0 +1,81 @@
+{
+    "party_names":
+    [
+  {
+    "id": "861534",
+    "required_hero_class": [
+      "miko",
+      "miko",
+      "miko",
+      "miko"
+    ]
+  },
+  {
+    "id": "861535",
+    "required_hero_class": [
+      "siexiled",
+      "vestal",
+      "miko",
+      "crusader"
+    ]
+  },
+  {
+    "id": "861536",
+    "required_hero_class": [
+      "vestal",
+      "fish_onmyoji",
+      "occultist",
+      "miko"
+    ]
+  },
+  {
+    "id": "861537",
+    "required_hero_class": [
+      "hollow",
+      "fish_onmyoji",
+      "apostate",
+      "miko"
+    ]
+  },
+  {
+    "id": "861538",
+    "required_hero_class": [
+      "musketeer",
+	  "bounty_hunter",
+      "highwayman",
+      "miko"
+      
+    ]
+  },
+  {
+    "id": "861539",
+    "required_hero_class": [
+      "grave_robber",
+      "miko",
+      "maid",
+      "crusader"
+    ]
+  },
+  {
+    "id": "861540",
+    "required_hero_class": [
+      "miko",
+      "jester",
+      "hellion",
+      "flagellant"
+    ]
+  },
+  {
+    "id": "861541",
+    "required_hero_class": [
+      "jester",
+      "miko",
+      "maid",
+      "shieldbreaker"
+    ]
+  }
+  
+  
+    ]
+
+}

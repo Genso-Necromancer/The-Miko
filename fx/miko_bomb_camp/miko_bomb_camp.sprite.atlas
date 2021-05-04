@@ -1,0 +1,20 @@
+
+miko_bomb_camp.sprite.png
+size: 161,617
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+elixir bomb
+  rotate: true
+  xy: 2, 2
+  size: 161, 157
+  orig: 161, 157
+  offset: 0, 0
+  index: -1
+elixir wave fx
+  rotate: false
+  xy: 2, 165
+  size: 83, 450
+  orig: 83, 450
+  offset: 0, 0
+  index: -1

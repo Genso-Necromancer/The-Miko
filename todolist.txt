@@ -1,0 +1,35 @@
+To-do:
+Rework Yin-yang Orb buffs
+Create Aura for when afflicted(requires combat/idle/walk animations)
+Create Reimu Banner(requires C/I/W anims)
+Finish Steam Page infographics
+Finish Steam Page
+
+
+
+
+Trinket ideas:
+
+The Yin and Yang of Miko:
+
+
+Yin: DMG, Acc, Crit, Debuff, Stun Res
+
+Yang: Stun Chance, Stress%, Spd
+
+Both: Dodge, "Vs Yokai"
+
+
+
+Kit Concept: Ext, Persuasion Needle, ESC/Barrier, Prayer/Fantasy Seal
+
+Yin:
++1 Stack of Rhythm on Melee Hit
+
+Yang:
+
+
+Set Bonus: 
++5 Dodge
+
+

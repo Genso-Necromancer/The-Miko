@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <language id="english">
+
+
+	<!-- Events -->
+	<entry id="town_event_title_first_miko"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_first_miko"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_PCB_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_PCB_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_IMP_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_IMP_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_IN_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_IN_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_PFV_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_PFV_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_MF_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_MF_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_SA_event><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_SA_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_TD_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_TD_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_DDC_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_DDC_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_LLK_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_LLK_event"><![CDATA[REPLACE ME]]></entry>
+	
+	<entry id="town_event_title_miko_HSFS_event"><![CDATA[REPLACE ME]]></entry>
+	<entry id="town_event_description_miko_HSFS_event"><![CDATA[REPLACE ME]]></entry>
+	
+	
+	
+	
+	</language>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</root>

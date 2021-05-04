@@ -1,0 +1,27 @@
+
+miko.sprite.yinyangorbfx.png
+size: 195,82
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+orb
+  rotate: false
+  xy: 2, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+prayer sparkle
+  rotate: false
+  xy: 162, 46
+  size: 31, 34
+  orig: 31, 34
+  offset: 0, 0
+  index: -1
+shading
+  rotate: false
+  xy: 82, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1

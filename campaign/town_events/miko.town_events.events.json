@@ -1,0 +1,34 @@
+{
+    "events": [
+		 {
+            "id": "2husunward_miko",
+            "base_chance": 0.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 0,
+            "is_unique" : true,
+            "priority":"highest",
+            "requirements": {
+                "minimum_week": 0,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0,
+				"finished_plot_quests":[
+                    "plot_tutorial_ship"
+                ]
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "miko",
+                    "number_data": 1.0
+                }
+            ]
+        }
+        
+    ]
+}
