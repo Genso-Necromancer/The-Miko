@@ -525,7 +525,7 @@
          "id" : "miko_merciless_dmgHR1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.20,
+         "amount" : 0.10,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
@@ -538,7 +538,7 @@
          "id" : "miko_merciless_dmgLR1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.20,
+         "amount" : 0.10,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
@@ -551,7 +551,7 @@
          "id" : "miko_merciless_dmgHR2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.10,
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
@@ -564,7 +564,7 @@
          "id" : "miko_merciless_dmgLR2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.10,
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "in_rank",
          "is_false_rule" : false,
@@ -814,6 +814,71 @@
             "string" : ""
          },
 		 "has_description" : false
+      },
+	   {
+         "id" : "miko_gohei_DMGDbuffH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_gohei_DMGDbuffL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_gohei_StunDbuff",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "miko_gohei_StressDbuff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "alwaysl",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "miko_gohei_DCDbuff",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	  
 	  

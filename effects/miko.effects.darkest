@@ -202,35 +202,18 @@ effect: .name "Youkai Weak Crit 5" .target "performer" .chance 100% .monsterType
 //Stun
 effect: .name "Youkai Stun" .target "performer" .skill_instant true .buff_ids "miko_Youkai_stunbuff" .on_hit true .on_miss false .apply_once true
 
-///Trinkets
-//Yang
-
-
+////Trinkets
 //Yin
+//Only preserved as the probability worked out took a good amount of time to formulate. Ultimately never used. Wew fuckin' lad.
+//effect: .name "Highly Responsive to RNG1" .target "target" .chance 100% .on_hit true .on_miss false .health_damage 2 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
+//effect: .name "Highly Responsive to RNG2" .target "target" .chance 80%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
+//effect: .name "Highly Responsive to RNG3" .target "target" .chance 70%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
+//effect: .name "Highly Responsive to RNG4" .target "target" .chance 22%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
 
-effect: .name "Highly Responsive to RNG1" .target "target" .chance 100% .on_hit true .on_miss false .health_damage 2 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
-effect: .name "Highly Responsive to RNG2" .target "target" .chance 80%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
-effect: .name "Highly Responsive to RNG3" .target "target" .chance 70%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
-effect: .name "Highly Responsive to RNG4" .target "target" .chance 22%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
+//Merciless Gohei On hit effect
+effect: .name "Miko Bonus Action" .target "performer" .chance 100% .initiative_change 1 .buff_ids "miko_gohei_DMGDbuffH" "miko_gohei_DMGDbuffL" "miko_gohei_StunDbuff" "miko_gohei_StresDbuff" "miko_gohei_DCDbuff" .duration 2 .on_hit true .on_miss false .queue true .apply_once true .has_description false
 
-////Orb Self hit
-//Yang
-effect: .name "Miko Yang DMG Self SWCH ON" .target "performer" .chance 100% .buff_ids "miko_DMG_Swch_ON" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue false .has_description false
-effect: .name "Miko Yang DMG Self SWCH OFF" .target "performer" .chance 100% .buff_ids "miko_DMG_Swch_OFF" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue true .has_description false
-//Yin
-effect: .name "Miko Yin DMG Self SWCH OFF" .target "performer" .chance 100% .buff_ids "miko_DMG_Swch_OFF" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue false .has_description false
-effect: .name "Miko Yin DMG Self SWCH ON" .target "performer" .chance 100% .buff_ids "miko_DMG_Swch_ON" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue true .has_description false
-effect: .name "Your brother won't just pop back" .target "performer" .chance 5% .on_hit false .on_miss true .health_damage 3 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue true .has_description false
-
-
-
-//Merciless Gohei On hit debuff
-effect: .name "Inspire Fear" .target "target" .chance 300% .duration 1 .buff_ids "miko_DB_debuff" .on_hit true .on_miss false .apply_once true .queue false .has_description true
-
-
-
-
-////Rod of Remorse
+///Rod of Remorse
 //Gathers Faith from each party member
 effect: .name "Faith Check" .target "performer_group_other" .chance 100% .swap_source_and_target true  .buff_ids "miko_faith_check" .buff_source_type "bsrc_notspecified" .duration 1 .on_hit true .on_miss false .apply_once true .has_description false
 //Uses Faith to heal target
@@ -246,13 +229,13 @@ effect: .name "gap miko taunt" .target "performer" .chance 100% .duration 3 .tag
 //Gap Dodge Buff
 effect: .name "just dont get hit" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 10% .duration 2 .on_hit true .on_miss false .apply_once true .queue true
 
-///Bomb System
+////Bomb System
 //Cooldown debuff
 effect: .name "Cooldown MK" .target "performer"  .chance 1000% .duration -1 .buff_ids "miko_bomb_use" "miko_bomb_count_skill" .buff_is_clear_debuff_valid false .buff_source_type bsrc_item  .on_hit true .on_miss false .apply_once true .queue true .has_description false
 
 //MK Fake Guard
 
-effect: .name "MK Fake Guard" .target "performer" .chance 0% .guard 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "MK Fake Guard" .target "performer" .chance 0% .daze 1 .on_hit false .on_miss false .queue true .apply_once true .has_description false
 
 //Bomb Item
 effect: .name "miko_bomb" .target "performer"  .item 1 .chance 100% .duration -1 .buff_ids "miko_bomb_elixer" "miko_bomb_count_elixir" .buff_source_type bsrc_item .buff_is_clear_debuff_valid false .on_hit true .on_miss false .has_description false

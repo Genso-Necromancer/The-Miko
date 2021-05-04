@@ -4,7 +4,7 @@
       {
          "id" : "miko_bomb_use",
          "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "tag",
+         "stat_sub_type" : "daze",
          "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -18,7 +18,7 @@
       {
          "id" : "miko_bomb_elixer",
          "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "tag",
+         "stat_sub_type" : "daze",
          "amount" : -0.50,
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -45,7 +45,7 @@
       {
          "id" : "miko_bomb_tincture",
          "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "tag",
+         "stat_sub_type" : "daze",
          "amount" : -0.25,
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -98,7 +98,7 @@
       {
          "id" : "miko_no_bombs",
          "stat_type" : "disable_combat_skill_attribute",
-         "stat_sub_type" : "tag",
+         "stat_sub_type" : "daze",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "has_item_id",

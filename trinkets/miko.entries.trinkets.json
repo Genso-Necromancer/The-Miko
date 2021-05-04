@@ -107,14 +107,13 @@
          "id" : "si_miko_merciless",
          "buffs" : 
          [
-			"miko_fear_disable",
 			"miko_merciless_dmgHR1",
 			"miko_merciless_dmgLR1",
 			"miko_merciless_dmgHR2",
 			"miko_merciless_dmgLR2",
 			"miko_merciless_dodge_debuffR1",
 			"miko_merciless_dodge_debuffR2",
-			"miko_merciless_TT"
+			"Miko Bonus Action"
          ],
          "hero_class_requirements":
          [
@@ -124,9 +123,10 @@
          "price" : 30000,
          "limit" : 1,
          "origin_dungeon" : "",
-		 "melee_attack_skill_additional_effects":
+		 "kill_performer_additional_effects":
          [
-			"melee_attack_skill_additional_effects"
+			
+			"miko_merciless_TT"
 			
          ]
       }

@@ -73,7 +73,7 @@
 		In Rank 3&4: {colour_start|move}Forward{colour_end} 2]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_remorse_heal_tt"><![CDATA[{colour_start|notable}Disaster-dispelling Prayer{colour_end}: {colour_start|healhp}Heal{colour_end} 2 for each ally]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_remorse_aff_tt"><![CDATA[Cannot {colour_start|healhp}Heal{colour_end} if {colour_start|afflicted}Afflicted{colour_end}!]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_miko_merciless_tt"><![CDATA[{colour_start|notable}Extermination{colour_end}: +1 additional stack of {colour_start|buff}Rhythm{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_merciless_tt"><![CDATA[On Kill: Gain an {colour_start|notable}Extra Action{colour_end} with half effectiveness]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_gap_tt"><![CDATA[Always {colour_start|afflicted}Marked{colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_ha_dmg_tt"><![CDATA[%d%% DMG per additional Target]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_esc_tt"><![CDATA[DMG reduced by Target's missing HP%%]]></entry>
