@@ -24,11 +24,12 @@ effect: .name "Miko Miss Rhythm Break" .target "performer" .chance 100% .steal_b
 
 ///Persuasion Needle
 //Seal Stress
-effect: .name "Needle Persuasion 1" .target "target" .chance 100% .duration 3 .buff_ids "Miko_sealing_STRESS_1" .on_hit true .on_miss false .has_description true
-effect: .name "Needle Persuasion 2" .target "target" .chance 110% .duration 3 .buff_ids "Miko_sealing_STRESS_2" .on_hit true .on_miss false .has_description true
-effect: .name "Needle Persuasion 3" .target "target" .chance 120% .duration 3 .buff_ids "Miko_sealing_STRESS_3" .on_hit true .on_miss false .has_description true
-effect: .name "Needle Persuasion 4" .target "target" .chance 130% .duration 3 .buff_ids "Miko_sealing_STRESS_4" .on_hit true .on_miss false .has_description true
-effect: .name "Needle Persuasion 5" .target "target" .chance 140% .duration 3 .buff_ids "Miko_sealing_STRESS_5" .on_hit true .on_miss false .has_description true
+effect: .name "Needle Persuasion 1" .target "target" .chance 100% .duration 3 .buff_ids "Miko_sealing_STRESS_1" "Miko_sealing_DEBUFF_1" .on_hit true .on_miss false .has_description true
+effect: .name "Needle Persuasion 2" .target "target" .chance 110% .duration 3 .buff_ids "Miko_sealing_STRESS_2" "Miko_sealing_DEBUFF_2" .on_hit true .on_miss false .has_description true
+effect: .name "Needle Persuasion 3" .target "target" .chance 120% .duration 3 .buff_ids "Miko_sealing_STRESS_3" "Miko_sealing_DEBUFF_3" .on_hit true .on_miss false .has_description true
+effect: .name "Needle Persuasion 4" .target "target" .chance 130% .duration 3 .buff_ids "Miko_sealing_STRESS_4" "Miko_sealing_DEBUFF_4" .on_hit true .on_miss false .has_description true
+effect: .name "Needle Persuasion 5" .target "target" .chance 140% .duration 3 .buff_ids "Miko_sealing_STRESS_5" "Miko_sealing_DEBUFF_5" .on_hit true .on_miss false .has_description true
+
 //Mark
 effect: .name "Miko Mark" .target "target" .chance 100% .duration 3 .tag 1 .on_hit true .on_miss false
 
