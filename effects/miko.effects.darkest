@@ -106,7 +106,6 @@ effect: .name "Homing DMG Scaling11" .target "performer" .skill_instant true .ch
 
 effect: .name "Homing DMG Scaling12" .target "performer" .skill_instant true .chance 100% .buff_ids 
 "miko_HA_dmg_scalingvegetationH_2" "miko_HA_dmg_scalingvegetationL_2" "miko_HA_dmg_scalingvegetationH_3" "miko_HA_dmg_scalingvegetationL_3" "miko_HA_dmg_scalingvegetationH_4" "miko_HA_dmg_scalingvegetationL_4" "miko_HA_dmg_scalingvegetationH_5" "miko_HA_dmg_scalingvegetationL_5"
-
 .on_hit true .on_miss true .apply_once true .has_description true
 
 
@@ -222,9 +221,9 @@ effect: .name "Gather Faith" .target "target" .chance 100% .heal 1 .on_hit true 
 
 ///Gap Trinket
 //Gap Teleport
-effect: .name "Warp Gap Shuffle" .target "performer" .instant_shuffle 1 .chance 900% .on_hit true .on_miss false .apply_once true .has_description true
-effect: .name "Warp Stun" .target "target" .chance 120% .stun 1 .on_hit true .on_miss false .apply_once true
-effect: .name "Warp Gap FX" .target "performer" .chance 100% .buff_ids "warp_gap_fx" .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "MK Warp Gap Shuffle" .target "performer" .instant_shuffle 1 .chance 900% .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "MK Warp Stun" .target "target" .chance 120% .stun 1 .on_hit true .on_miss false .apply_once true
+effect: .name "MK Warp Gap FX" .target "performer" .chance 100% .buff_ids "warp_gap_fx" .duration 1 .on_hit true .on_miss true .apply_once true .has_description false
 //Gap Self Mark
 effect: .name "gap miko taunt" .target "performer" .chance 100% .duration 3 .tag 1 .on_hit true .on_miss false .apply_once true .queue true
 //Gap Dodge Buff

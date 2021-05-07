@@ -1,10 +1,10 @@
 resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 40% .death_blow 67% .trap 5%
 crit: .effects "Miko Crit"
-weapon: .name "miko_weapon_0" .atk 0% .dmg 6 12  .crit 5% .spd 6
-weapon: .name "miko_weapon_1" .atk 0% .dmg 7 14  .crit 6% .spd 6 .upgradeRequirementCode 0
-weapon: .name "miko_weapon_2" .atk 0% .dmg 8 16  .crit 7% .spd 7 .upgradeRequirementCode 1
-weapon: .name "miko_weapon_3" .atk 0% .dmg 9 17  .crit 8% .spd 7 .upgradeRequirementCode 2
-weapon: .name "miko_weapon_4" .atk 0% .dmg 10 19 .crit 9% .spd 8 .upgradeRequirementCode 3
+weapon: .name "miko_weapon_0" .atk 0% .dmg 6 12  .crit 5% .spd 4
+weapon: .name "miko_weapon_1" .atk 0% .dmg 7 14  .crit 6% .spd 4 .upgradeRequirementCode 0
+weapon: .name "miko_weapon_2" .atk 0% .dmg 8 16  .crit 7% .spd 5 .upgradeRequirementCode 1
+weapon: .name "miko_weapon_3" .atk 0% .dmg 9 17  .crit 8% .spd 5 .upgradeRequirementCode 2
+weapon: .name "miko_weapon_4" .atk 0% .dmg 10 19 .crit 9% .spd 6 .upgradeRequirementCode 3
 armour: .name "miko_armour_0" .def 10% .prot 0 .hp 20 .spd 0
 armour: .name "miko_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
 armour: .name "miko_armour_2" .def 20% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1
@@ -35,11 +35,11 @@ combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .cri
 combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing TT 4" "Dance and Swagger R1&2 Check" "Dance and Swagger back" "Dance and Swagger R3&4 Check" "Dance and Swagger forward" .is_stall_invalidating true
 combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing TT 5" "Dance and Swagger R1&2 Check" "Dance and Swagger back" "Dance and Swagger R3&4 Check" "Dance and Swagger forward" .is_stall_invalidating true
 
-combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
-combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
-combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
-combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
-combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" "MK HA DMG Scale" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 2 .type "ranged" .atk 110% .dmg 0% .crit -6% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 3 .type "ranged" .atk 115% .dmg 0% .crit -4% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" .is_stall_invalidating true
+combat_skill: .id "homing_amulet" .level 4 .type "ranged" .atk 120% .dmg 0% .crit -3% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling1" .is_stall_invalidating true
 
 combat_skill: .id "homing_amulet" .level 0 .type "ranged" .atk 100% .dmg 0% .crit -8% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling2" .is_stall_invalidating true
 combat_skill: .id "homing_amulet" .level 1 .type "ranged" .atk 105% .dmg 0% .crit -7% .launch 4321 .target  ~1234 .is_crit_valid True .can_be_riposted false .effect "Homing DMG Scaling2" .is_stall_invalidating true

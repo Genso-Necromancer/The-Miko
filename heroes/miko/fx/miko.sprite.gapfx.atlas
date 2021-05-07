@@ -1,0 +1,13 @@
+
+miko.sprite.gapfx.png
+size: 100,212
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyes
+  rotate: false
+  xy: 2, 2
+  size: 96, 208
+  orig: 96, 208
+  offset: 0, 0
+  index: -1

@@ -16,7 +16,7 @@ combat_skill: .id "extermination" .icon "one" .anim "exterminate" .fx "ext_perf_
 combat_skill: .id "persuasion_needle" .icon "two" .anim "persuasion_needle" .fx "needle_perf_fx" .targchestfx "needle_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "homing_amulet" .icon "four" .anim "homingamulet" .fx "HAFX" .targchestfx "homing_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "evil_sealing_circle" .icon "three" .anim "evilsealingcircle" .fx "" .targfx "circle_target" .can_display_performer_selection_after_turn false .condensed_tooltip_stats true .condensed_tooltip_effects false
-combat_skill: .id "disaster_dispelling_prayer" .icon "five" .anim "disasterdispellingprayer" .fx "mk_prayer_perf_fx" .targheadfx "prayer_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "disaster_dispelling_prayer" .icon "five" .anim "disasterdispellingprayer" .fx "mk_prayer_prf_fx" .targheadfx "prayer_target" .can_display_performer_selection_after_turn false  .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "permanent_border" .icon "six" .anim "disasterdispellingprayer" .fx "spellcard_fx" .targfx "barrier_target" .can_display_performer_selection_after_turn false .condensed_tooltip_stats true .condensed_tooltip_effects true
 combat_skill: .id "fantasy_seal" .icon "seven" .anim "fantasyseal" .fx "spellcard_fx" .targfx "FS_target_fx" .condensed_tooltip_stats true .condensed_tooltip_effects false .area_pos_offset 150 0 .target_area_pos_offset -125 0
 

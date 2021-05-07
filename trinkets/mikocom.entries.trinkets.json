@@ -21,8 +21,10 @@
          "origin_dungeon" : "",
 		 "was_hit_additional_effects":
 		 [
-			"Warp Gap Shuffle",
-			"Warp Stun"
+			
+			"MK Warp Stun",
+			"MK Warp Gap FX",
+			"MK Warp Gap Shuffle"
 		 ]
 		
       }

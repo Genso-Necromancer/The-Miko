@@ -790,7 +790,7 @@
       },
 	   {
          "id" : "warp_gap_fx",
-         "stat_type" : "upgrade_discord",
+         "stat_type" : "upgrade_discount",
          "stat_sub_type" : "warp_gap_fx",
          "amount" : 0.1,
          "remove_if_not_active" : false,
@@ -800,7 +800,8 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description" : false
+		 "has_description" : false,
+		 "fx" : "gapfx"
       },
 	   {
          "id" : "miko_gohei_DMGDbuffH",
