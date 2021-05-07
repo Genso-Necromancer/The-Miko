@@ -113,20 +113,21 @@
 			"miko_merciless_dmgLR2",
 			"miko_merciless_dodge_debuffR1",
 			"miko_merciless_dodge_debuffR2",
-			"Miko Bonus Action"
+			"miko_merciless_TT"
          ],
          "hero_class_requirements":
          [
             "miko"
          ],
-         "rarity" : "crimson_court",
+         "rarity" : "sakura",
          "price" : 30000,
          "limit" : 1,
          "origin_dungeon" : "",
 		 "kill_performer_additional_effects":
          [
 			
-			"miko_merciless_TT"
+			
+			"Miko Bonus Action"
 			
          ]
       }

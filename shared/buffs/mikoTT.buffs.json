@@ -79,6 +79,19 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	   {
+         "id" : "miko_merciless_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "miko_merciless_tt",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	   
    ]
