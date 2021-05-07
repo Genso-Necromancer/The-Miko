@@ -1,10 +1,10 @@
 resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 40% .death_blow 67% .trap 5%
 crit: .effects "Miko Crit"
-weapon: .name "miko_weapon_0" .atk 0% .dmg 6 12  .crit 5% .spd 4
-weapon: .name "miko_weapon_1" .atk 0% .dmg 7 14  .crit 6% .spd 4 .upgradeRequirementCode 0
-weapon: .name "miko_weapon_2" .atk 0% .dmg 8 16  .crit 7% .spd 5 .upgradeRequirementCode 1
-weapon: .name "miko_weapon_3" .atk 0% .dmg 9 17  .crit 8% .spd 5 .upgradeRequirementCode 2
-weapon: .name "miko_weapon_4" .atk 0% .dmg 10 19 .crit 9% .spd 6 .upgradeRequirementCode 3
+weapon: .name "miko_weapon_0" .atk 0% .dmg 6 12  .crit 5% .spd 6
+weapon: .name "miko_weapon_1" .atk 0% .dmg 7 14  .crit 6% .spd 6 .upgradeRequirementCode 0
+weapon: .name "miko_weapon_2" .atk 0% .dmg 8 16  .crit 7% .spd 7 .upgradeRequirementCode 1
+weapon: .name "miko_weapon_3" .atk 0% .dmg 9 17  .crit 8% .spd 7 .upgradeRequirementCode 2
+weapon: .name "miko_weapon_4" .atk 0% .dmg 10 19 .crit 9% .spd 8 .upgradeRequirementCode 3
 armour: .name "miko_armour_0" .def 10% .prot 0 .hp 20 .spd 0
 armour: .name "miko_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
 armour: .name "miko_armour_2" .def 20% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1

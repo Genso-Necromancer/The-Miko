@@ -1,48 +1,69 @@
 
 miko.sprite.circle_target.png
-size: 424,553
+size: 832,504
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-circle
+Stun Ofuda.png copy
   rotate: true
-  xy: 251, 2
-  size: 206, 137
-  orig: 206, 137
+  xy: 504, 3
+  size: 49, 148
+  orig: 49, 148
   offset: 0, 0
   index: -1
-circle flame
-  rotate: true
-  xy: 2, 345
+Stun Ofuda.png copy #1
+  rotate: false
+  xy: 712, 158
+  size: 92, 136
+  orig: 92, 136
+  offset: 0, 0
+  index: -1
+Stun Ofuda.png copy #4
+  rotate: false
+  xy: 712, 296
+  size: 102, 140
+  orig: 102, 140
+  offset: 0, 0
+  index: -1
+Stun Ofuda.png copy #5
+  rotate: false
+  xy: 712, 21
+  size: 41, 135
+  orig: 41, 135
+  offset: 0, 0
+  index: -1
+Stun Ofuda.png copy #6
+  rotate: false
+  xy: 755, 5
+  size: 40, 151
+  orig: 40, 151
+  offset: 0, 0
+  index: -1
+circle flame.png
+  rotate: false
+  xy: 504, 193
   size: 206, 309
   orig: 206, 309
   offset: 0, 0
   index: -1
-left spike
+circle.png
   rotate: false
-  xy: 251, 210
-  size: 140, 133
-  orig: 140, 133
+  xy: 504, 54
+  size: 206, 137
+  orig: 206, 137
   offset: 0, 0
   index: -1
-mark border
+falling ofuda
   rotate: false
-  xy: 2, 48
-  size: 247, 295
-  orig: 247, 295
+  xy: 712, 438
+  size: 118, 64
+  orig: 118, 64
   offset: 0, 0
   index: -1
-red dot
+spell_0
   rotate: false
-  xy: 313, 345
-  size: 49, 49
-  orig: 49, 49
-  offset: 0, 0
-  index: -1
-right spike
-  rotate: false
-  xy: 313, 396
-  size: 109, 155
-  orig: 109, 155
+  xy: 2, 2
+  size: 500, 500
+  orig: 500, 500
   offset: 0, 0
   index: -1
