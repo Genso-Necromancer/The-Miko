@@ -848,7 +848,7 @@
          "stat_sub_type" : "",
          "amount" : -0.5,
          "remove_if_not_active" : false,
-         "rule_type" : "alwaysl",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
