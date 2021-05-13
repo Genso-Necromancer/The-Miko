@@ -2,71 +2,6 @@
    "buffs":
    [
       
-	  {
-         "id" : "miko_prayer_target_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_p_target_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "miko_is_bomb_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_is_bomb_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "miko_HA_Riposte_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_HA_Riposte_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "miko_FS_DebuffS_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_FS_DebuffS_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "miko_FS_DebuffS_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_FS_DebuffL_tt",
-         "amount" : 0.01,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
       {
          "id" : "miko_camp_danmaku_buff",
          "stat_type" : "stress_dmg_received_percent",
@@ -769,19 +704,6 @@
             "string" : ""
          }
       },
-	  {
-         "id" : "miko_Rhythm_TT",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "miko_rhythm_tt",
-         "amount" : 0.1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
 	   {
          "id" : "miko_FS_stunbuff1",
          "stat_type" : "stun_chance",
@@ -1090,10 +1012,10 @@
          }
       },
 	   {
-         "id" : "miko_rhythm_spd",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 1,
+         "id" : "miko_rhythm_anticrit",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
 		 "duration_type" : "combat_end",
          "duration" : 1,
          "remove_if_not_active" : false,

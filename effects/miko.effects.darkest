@@ -1,5 +1,5 @@
 //Miko Crit buff
-effect: .name "Miko Crit" .target "performer" .chance 100% .buff_ids "miko_rhythm_crt" "miko_rhythm_spd" .buff_duration_type combat_end .duration 1 .buff_source_type bsrc_crit .apply_once true .on_hit true .on_miss false
+effect: .name "Miko Crit" .target "performer" .chance 100% .buff_ids "miko_rhythm_crt" "miko_rhythm_anticrit" .buff_duration_type combat_end .duration 1 .buff_source_type bsrc_crit .apply_once true .on_hit true .on_miss false
 
 ///Skills.buff_source_type bsrc_crit
 //Extermination
