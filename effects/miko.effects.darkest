@@ -18,7 +18,7 @@ effect: .name "Miko Rhythm TT" .target "performer" .skill_instant true .buff_ids
 //effect: .name "RULES OF NATURE" .target "performer" .skill_instant true .chance 100% .buff_ids "miko_self_stress_heal_control"	.on_hit true .on_miss false .has_description false
 
 //Rhythm Mechanic
-effect: .name "Miko Rhythm" .target "performer" .chance 100% .buff_ids "miko_rhythm_crt" "miko_rhythm_spd" .buff_duration_type combat_end .duration 1 .buff_source_type bsrc_crit .buff_is_clear_debuff_valid false .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Miko Rhythm" .target "performer" .chance 100% .buff_ids "miko_rhythm_crt" "miko_rhythm_anticrit" .buff_duration_type combat_end .duration 1 .buff_source_type bsrc_crit .buff_is_clear_debuff_valid false .on_hit true .on_miss false .apply_once true .has_description false
 effect: .name "Miko Was Hit Rhythm Break" .target "performer" .chance 100% .steal_buff_source_type bsrc_crit .on_hit true .on_miss false .apply_once true .has_description false
 effect: .name "Miko Miss Rhythm Break" .target "performer" .chance 100% .steal_buff_source_type bsrc_crit .on_hit false .on_miss true .apply_once true .has_description false
 
