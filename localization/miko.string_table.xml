@@ -69,8 +69,8 @@
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_fsyk_tt"><![CDATA[Vs Yokai: 
 		{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_HA_Riposte_tt"><![CDATA[Bypass {colour_start|riposte}Riposte{colour_end}]]></entry>
-		<entry id="buff_stat_tooltip_upgrade_discount_miko_ha_move_tt"><![CDATA[In Rank 1&2: {colour_start|move}Back{colour_end} 2
-		In Rank 3&4: {colour_start|move}Forward{colour_end} 2]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_miko_ha_move_tt"><![CDATA[In Rank 1&2: {colour_start|move}Back{colour_end} 1
+		In Rank 3&4: {colour_start|move}Forward{colour_end} 1]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_remorse_heal_tt"><![CDATA[{colour_start|notable}Disaster-dispelling Prayer{colour_end}: {colour_start|healhp}Heal{colour_end} 2 for each ally]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_remorse_aff_tt"><![CDATA[Cannot {colour_start|healhp}Heal{colour_end} if {colour_start|afflicted}Afflicted{colour_end}!]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_miko_merciless_tt"><![CDATA[On Kill: Gain an {colour_start|notable}Extra Action{colour_end} with half effectiveness]]></entry>

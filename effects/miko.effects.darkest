@@ -118,9 +118,9 @@ effect: .name "Miko Stun Debuff 5" .target "target" .chance 140% .duration 2 .bu
 
 ////Odin gave his eye for knowledge. I, too, have sacrificed, for movement control.
 effect: .name "Dance and Swagger R1&2 Check" .target "performer" .chance 100%  .buff_ids "miko_gap_back_check1" "miko_gap_back_check2" .buff_source_type "bsrc_notspecified" .duration 1 .on_hit true .on_miss true .apply_once true .queue true .has_description false
-effect: .name "Dance and Swagger back"       .target "performer" .chance -100% .push 2 .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Dance and Swagger back"       .target "performer" .chance -100% .push 1 .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue true .has_description false
 effect: .name "Dance and Swagger R3&4 Check" .target "performer" .chance 100%  .buff_ids "miko_StopGap1" "miko_StopGap2" "miko_gap_forward_check3" "miko_gap_forward_check4" .buff_source_type "bsrc_notspecified" .duration 1 .on_hit true .on_miss true .apply_once true .queue true .has_description false
-effect: .name "Dance and Swagger forward"    .target "performer" .chance -100% .pull 2 .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "Dance and Swagger forward"    .target "performer" .chance -100% .pull 1 .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 //The tool tip which explains my idiocy
 effect: .name "Homing TT 1" .target "performer" .skill_instant true .buff_ids "miko_HA_Riposte_TT" "miko_HA_move_TT" "miko_HA_DMG_TT" .apply_once true .on_hit true .on_miss true
@@ -204,7 +204,7 @@ effect: .name "Youkai Stun" .target "performer" .skill_instant true .buff_ids "m
 
 ////Trinkets
 //Yin
-//Only preserved as the probability worked out took a good amount of time to formulate. Ultimately never used. Wew fuckin' lad.
+//Only preserved as the probability I worked out took too god damn long to formulate. Ultimately never used. Wew fuckin' lad.
 //effect: .name "Highly Responsive to RNG1" .target "target" .chance 100% .on_hit true .on_miss false .health_damage 2 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
 //effect: .name "Highly Responsive to RNG2" .target "target" .chance 80%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
 //effect: .name "Highly Responsive to RNG3" .target "target" .chance 70%  .on_hit true .on_miss false .health_damage 1 .damage_type additionaleffect .damage_source_data "cc_miko" .damage_source_type "trinket" .apply_once true .queue false .has_description false
